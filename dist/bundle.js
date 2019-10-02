@@ -4726,7 +4726,7 @@
         }) : t[n] = e, t
     }
     var f = e(7),
-        h = "https://raw.githubusercontent.com/mrdcy/mrdcy.github.io/master/dist/assets/data/faces.csv",
+        h = "/assets/data/faces.csv",
         d = null,
         p = [],
         v = null,
@@ -4933,7 +4933,7 @@
     }
     var rt = function() {
             return new Promise((function(t, n) {
-                d3.csv("https://raw.githubusercontent.com/mrdcy/mrdcy.github.io/master/dist/assets/data/faces.csv").then((function(n) {
+                d3.csv("/assets/data/faces.csv").then((function(n) {
                     var e = et(n);
                     t(e)
                 })).catch((function(t) {
