@@ -536,7 +536,7 @@
                             return t.l
                         }))), g = d3.axisBottom(c).tickPadding(8).ticks(10), d.select(".x").attr("transform", "translate(".concat(16, ",").concat(u + 16, ")")).call(g), s = d3.scaleLinear().rangeRound([0, i]).domain(d3.extent(e, (function(t) {
                             return t.year
-                        }))), y = d3.axisLeft(s).tickPadding(8).tickFormat(d3.format("d")).ticks(10), d.select(".y").attr("transform", "translate(".concat(40, ",").concat(16, ")")).call(y), j.attr("x1", (function(t) {
+                        }))), y = d3.axisLeft(s).tickPadding(8).tickFormat(d3.format("d")).ticks(20), d.select(".y").attr("transform", "translate(".concat(40, ",").concat(16, ")")).call(y), j.attr("x1", (function(t) {
                             return c(.44248366)
                         })).attr("y1", s(2e3) + a).attr("x2", (function(t) {
                             return c(.44248366)
@@ -4726,7 +4726,7 @@
         }) : t[n] = e, t
     }
     var f = e(7),
-        h = "assets/data/faces.csv",
+        h = "https://raw.githubusercontent.com/mrdcy/mrdcy.github.io/master/dist/assets/data/faces.csv",
         d = null,
         p = [],
         v = null,
@@ -4933,7 +4933,7 @@
     }
     var rt = function() {
             return new Promise((function(t, n) {
-                d3.csv("assets/data/faces.csv").then((function(n) {
+                d3.csv("https://raw.githubusercontent.com/mrdcy/mrdcy.github.io/master/dist/assets/data/faces.csv").then((function(n) {
                     var e = et(n);
                     t(e)
                 })).catch((function(t) {
