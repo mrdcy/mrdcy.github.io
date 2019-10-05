@@ -4737,7 +4737,7 @@
                 3 === t && (v.highlightYears(), v.showY());
                 4 === t && (v.showY());
                 5 === t && (v.showY());
-                6 === t && (v.highlightLupita(), v.showY());
+                6 === t && (v.showY());
                 7 === t && (g >= _ ? (E.classed("is-visible", !0), E.classed("faded", !1), I.classed("is-visible", !1)) : (E.classed("is-visible", !1), E.classed("faded", !1), I.classed("is-visible", !0)))
             }(t.index, t.direction)
     }
