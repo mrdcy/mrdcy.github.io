@@ -534,9 +534,9 @@
                             f = d3.select(".beeswarm-legend").node().offsetHeight;
                         r = n.node().offsetWidth - 32 - 16, i = t - l - f - 160 - 16 - 32, a = Math.round(.01 * r, 0), u = i / 2, c = d3.scaleLinear().range([32, r - 16]).domain(d3.extent(e, (function(t) {
                             return t.l
-                        }))), g = d3.axisBottom(c).tickPadding(8).ticks(10), d.select(".x").attr("transform", "translate(".concat(16, ",").concat(u + 16, ")")).call(g), s = d3.scaleLinear().rangeRound([0, i]).domain(d3.extent(e, (function(t) {
+                        }))), g = d3.axisBottom(c).tickPadding(8).ticks(5), d.select(".x").attr("transform", "translate(".concat(16, ",").concat(u + 16, ")")).call(g), s = d3.scaleLinear().rangeRound([0, i]).domain(d3.extent(e, (function(t) {
                             return t.year
-                        }))), y = d3.axisLeft(s).tickPadding(8).tickFormat(d3.format("d")).ticks(10), d.select(".y").attr("transform", "translate(".concat(40, ",").concat(16, ")")).call(y), j.attr("x1", (function(t) {
+                        }))), y = d3.axisLeft(s).tickPadding(8).tickFormat(d3.format("d")).ticks(1), d.select(".y").attr("transform", "translate(".concat(40, ",").concat(16, ")")).call(y), j.attr("x1", (function(t) {
                             return c(.44248366)
                         })).attr("y1", s(2e3) + a).attr("x2", (function(t) {
                             return c(.44248366)
@@ -622,45 +622,6 @@
                         })).ease(d3.easeLinear).attr("transform", (function(t) {
                             return "translate(".concat(t.data.x, ", ").concat(s(t.data.year), ")")
                         })), k.style("opacity", 0), O.style("opacity", 0), j.style("opacity", 0), E.style("opacity", 0), d3.selectAll(".tick").classed("is-emphasized", !1), I
-                    },
-                    highlightYears: function() {
-                        return l.classed("is-visible", !1), f.classed("is-visible", !1), w.classed("is-visible", !0), w.classed("highlight", !1), j.style("opacity", 1).transition(1e3).ease(d3.easeLinear).attr("x1", (function(t) {
-                            return c(.44248366)
-                        })).attr("y1", s(2e3) + a).attr("x2", (function(t) {
-                            return c(.44248366)
-                        })).attr("y2", s(2005) + 3 * a).attr("transform", "translate(0,-".concat(u + 2 * a, ")")), E.style("opacity", 1).transition(1e3).ease(d3.easeLinear).attr("x1", (function(t) {
-                            return c(.855555556)
-                        })).attr("y1", s(2e3) + a).attr("x2", (function(t) {
-                            return c(.855555556)
-                        })).attr("y2", s(2005) + 3 * a).attr("transform", "translate(0,-".concat(u + 2 * a, ")")), k.style("opacity", 1).transition(1e3).ease(d3.easeLinear).attr("y", -a).attr("height", s(2005) + 2 * a).attr("x", c(.44248366)).attr("width", c(.855555556) - c(.44248366)), O.style("opacity", 1).transition(1e3).ease(d3.easeLinear).attr("y", -a).attr("height", s(2005) + 2 * a), d3.selectAll(".tick").classed("is-emphasized", !1).filter((function(t) {
-                            return t <= 2005
-                        })).classed("is-emphasized", !0), I
-                    },
-                    highlightMids: function() {
-                        l.classed("is-visible", !1), f.classed("is-visible", !1), A.classed("highlight", !1), A.classed("is-visible", !1), w.classed("is-visible", !0), w.classed("highlight", !1), k.style("opacity", 1).transition(1e3).ease(d3.easeLinear).attr("y", s(2006) - a).attr("height", s(2013) - s(2006) + 2 * a).attr("x", c(.354117647)).attr("width", c(.882352941) - c(.354117647)), O.style("opacity", 1).transition(1e3).ease(d3.easeLinear).attr("y", s(2006) - a).attr("height", s(2013) - s(2006) + 2 * a), j.style("opacity", 1).transition(1e3).ease(d3.easeLinear).attr("x1", (function(t) {
-                            return c(.354117647)
-                        })).attr("y1", s(2006) + a).attr("x2", (function(t) {
-                            return c(.354117647)
-                        })).attr("y2", s(2013) + 3 * a).attr("transform", "translate(0,-".concat(u + 2 * a, ")")), E.style("opacity", 1).transition(1e3).ease(d3.easeLinear).attr("x1", (function(t) {
-                            return c(.882352941)
-                        })).attr("y1", s(2006) + a).attr("x2", (function(t) {
-                            return c(.882352941)
-                        })).attr("y2", s(2013) + 3 * a).attr("transform", "translate(0,-".concat(u + 2 * a, ")")), d3.selectAll(".tick").classed("is-emphasized", !1).filter((function(t) {
-                            return t >= 2006 && t <= 2013
-                        })).classed("is-emphasized", !0)
-                    },
-                    transitionRectangle: function() {
-                        l.classed("is-visible", !1), f.classed("is-visible", !1), A.classed("highlight", !1), A.classed("faded", !1), A.classed("is-visible", !0), w.classed("is-visible", !1), w.classed("highlight", !1), k.style("opacity", 1).transition(1e3).ease(d3.easeLinear).attr("y", s(2014) - a).attr("height", s(2018) - s(2014) + 2 * a).attr("x", c(.212745098)).attr("width", c(.858226769) - c(.212745098)), O.style("opacity", 1).transition(1e3).ease(d3.easeLinear).attr("y", s(2014) - a).attr("height", s(2018) - s(2014) + 2 * a), j.style("opacity", 1).transition(1e3).ease(d3.easeLinear).attr("x1", (function(t) {
-                            return c(.212745098)
-                        })).attr("y1", s(2014) + a).attr("x2", (function(t) {
-                            return c(.212745098)
-                        })).attr("y2", s(2018) + 3 * a).attr("transform", "translate(0,-".concat(u + 2 * a, ")")), E.style("opacity", 1).transition(1e3).ease(d3.easeLinear).attr("x1", (function(t) {
-                            return c(.858226769)
-                        })).attr("y1", s(2014) + a).attr("x2", (function(t) {
-                            return c(.858226769)
-                        })).attr("y2", s(2018) + 3 * a).attr("transform", "translate(0,-".concat(u + 2 * a, ")")), d3.selectAll(".tick").classed("is-emphasized", !1).filter((function(t) {
-                            return t >= 2014 && t <= 2018
-                        })).classed("is-emphasized", !0)
                     },
                     highlightLupita: function() {
                         return f.classed("is-visible", !0), r >= 480 ? (l.classed("is-visible", !0), A.classed("highlight", !1), A.classed("faded", !0), w.classed("is-visible", !1), d3.selectAll(".model-img-Lupita-Nyongo").classed("highlight", !0), l.classed("is-visible", !0), d3.select(".switch input").classed("is-faces", !0), A.classed("is-visible", !0), w.classed("is-visible", !1), w.classed("highlight", !1), w.classed("faded", !1), A.classed("highlight", !1), A.classed("faded", !0), d3.selectAll(".model-img-Lupita-Nyongo").classed("highlight", !0)) : (l.classed("is-visible", !1), A.classed("highlight", !1), A.classed("is-visible", !1), w.classed("is-visible", !0), w.classed("highlight", !1), w.classed("faded", !1), d3.selectAll(".model-circle-Lupita-Nyongo").style("opacity", 1)), k.style("opacity", 0), j.style("opacity", 0), E.style("opacity", 0), d3.selectAll(".tick").classed("is-emphasized", !1), I
@@ -4775,7 +4736,7 @@
                 2 === t && (v.scatterTransition(), v.showY());
                 3 === t && (v.highlightYears(), v.showY());
                 4 === t && (v.highlightMids(), v.showY());
-                5 === t && (v.transitionRectangle(), v.swapFaces(), v.showY());
+                5 === t && (v.showY());
                 6 === t && (v.highlightLupita(), v.showY());
                 7 === t && (g >= _ ? (E.classed("is-visible", !0), E.classed("faded", !1), I.classed("is-visible", !1)) : (E.classed("is-visible", !1), E.classed("faded", !1), I.classed("is-visible", !0)))
             }(t.index, t.direction)
