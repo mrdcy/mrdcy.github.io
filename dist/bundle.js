@@ -536,15 +536,7 @@
                             return t.l
                         }))), g = d3.axisBottom(c).tickPadding(8).ticks(10), d.select(".x").attr("transform", "translate(".concat(16, ",").concat(u + 16, ")")).call(g), s = d3.scaleLinear().rangeRound([0, i]).domain(d3.extent(e, (function(t) {
                             return t.year
-                        }))), y = d3.axisLeft(s).tickPadding(8).tickFormat(d3.format("d")).ticks(10), d.select(".y").attr("transform", "translate(".concat(40, ",").concat(16, ")")).call(y), j.attr("x1", (function(t) {
-                            return c(.44248366)
-                        })).attr("y1", s(2e3) + a).attr("x2", (function(t) {
-                            return c(.44248366)
-                        })).attr("y2", s(2005) + 3 * a).attr("transform", "translate(0,-".concat(u + 2 * a, ")")), E.attr("x1", (function(t) {
-                            return c(.855555556)
-                        })).attr("y1", s(2e3) + a).attr("x2", (function(t) {
-                            return c(.855555556)
-                        })).attr("y2", s(2005) + 3 * a).attr("transform", "translate(0,-".concat(u + 2 * a, ")")), O.attr("x", 0).attr("y", -a).attr("width", r).attr("height", s(2005) + 2 * a), k.attr("x", c(.44248366)).attr("y", -a).attr("width", c(.855555556) - c(.44248366)).attr("height", s(2005) + 2 * a).attr("transform", "translate(".concat(-24, ", 0)")), (o = d3.forceSimulation(e).force("x", d3.forceX((function(t) {
+                        }))), y = d3.axisLeft(s).tickPadding(8).tickFormat(d3.format("d")).ticks(10), d.select(".y").attr("transform", "translate(".concat(40, ",").concat(16, ")")).call(y), (o = d3.forceSimulation(e).force("x", d3.forceX((function(t) {
                             return c(t.l)
                         })).strength(1)).force("y", d3.forceY(i / 2)).force("collide", d3.forceCollide(a + 1)).alphaDecay(.0228).velocityDecay(.4).restart()).alpha(1);
                         for (var p = 0; p < 200; ++p) o.tick();
