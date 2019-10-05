@@ -622,7 +622,7 @@
                         l.classed("is-visible", !1), f.classed("is-visible", !1), A.classed("highlight", !1), A.classed("is-visible", !1), w.classed("is-visible", !0), w.classed("highlight", !1)
                     },
                     transitionRectangle: function() {
-                        l.classed("is-visible", !1), w.classed("is-visible", !1), w.classed("highlight", !1)
+                        l.classed("is-visible", !1), f.classed("is-visible", !1), A.classed("highlight", !1), A.classed("faded", !1), A.classed("is-visible", !0), w.classed("is-visible", !1), w.classed("highlight", !1)
                     },
                     highlightLupita: function() {
                         return f.classed("is-visible", !0), 
@@ -4743,7 +4743,7 @@
                 4 === t && (v.showY());
                 5 === t && (v.transitionRectangle(), v.swapFaces(), v.showY());
                 6 === t && (v.highlightLupita(), v.showY());
-                7 === t && (g >= _ ? (E.classed("is-visible", !0), E.classed("faded", !1), I.classed("is-visible", !1)) : (E.classed("is-visible", !1), E.classed("faded", !1), I.classed("is-visible", !0)))
+                7 === t && (g >= _ ? (E.classed("is-visible", !0), E.classed("faded", !1)) : (E.classed("is-visible", !1)))
             }(t.index, t.direction)
     }
 
