@@ -628,8 +628,7 @@
                         return f.classed("is-visible", !0), 
                         r >= 480 ? (l.classed("is-visible", !0)) : 
                         (l.classed("is-visible", !1)), 
-                        k.style("opacity", 0), j.style("opacity", 0), 
-                        E.style("opacity", 0), d3.selectAll(".tick").classed("is-emphasized", !1), I
+                        k.style("opacity", 0), d3.selectAll(".tick").classed("is-emphasized", !1), I
                     },
                     render: function() {
                         return I
@@ -4743,7 +4742,7 @@
                 4 === t && (v.showY());
                 5 === t && (v.transitionRectangle(), v.swapFaces(), v.showY());
                 6 === t && (v.highlightLupita(), v.showY());
-                7 === t && (g >= _ ? () : ()
+                7 === t && (g >= _ ? (E.classed("is-visible", !0), E.classed("faded", !1), I.classed("is-visible", !1)) : (E.classed("is-visible", !1), E.classed("faded", !1), I.classed("is-visible", !0)))
             }(t.index, t.direction)
     }
 
