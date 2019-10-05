@@ -622,7 +622,7 @@
                         l.classed("is-visible", !1), f.classed("is-visible", !1), A.classed("highlight", !1), A.classed("is-visible", !1), w.classed("is-visible", !0), w.classed("highlight", !1)
                     },
                     transitionRectangle: function() {
-                        l.classed("is-visible", !1), f.classed("is-visible", !1), A.classed("highlight", !1), A.classed("faded", !1), A.classed("is-visible", !0), w.classed("is-visible", !1), w.classed("highlight", !1)
+                        l.classed("is-visible", !1), f.classed("is-visible", !1), A.classed("highlight", !1), A.classed("faded", !1), A.classed("is-visible", !0)
                     },
                     highlightLupita: function() {
                         return f.classed("is-visible", !0), 
