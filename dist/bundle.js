@@ -536,7 +536,8 @@
                             return t.l
                         }))), g = d3.axisBottom(c).tickPadding(8).ticks(10), d.select(".x").attr("transform", "translate(".concat(16, ",").concat(u + 16, ")")).call(g), s = d3.scaleLinear().rangeRound([0, i]).domain(d3.extent(e, (function(t) {
                             return t.year
-                        }))), y = d3.axisLeft(s).tickPadding(8).tickFormat(d3.format("d")).ticks(10), d.select(".y").attr("transform", "translate(".concat(40, ",").concat(16, ")")).call(y), (o = d3.forceSimulation(e).force("x", d3.forceX((function(t) {
+                        }))), y = d3.axisLeft(s).tickPadding(8).tickFormat(d3.format("d")).ticks(10), d.select(".y").attr("transform", "translate(".concat(40, ",").concat(16, ")")).call(y), 
+                        , (o = d3.forceSimulation(e).force("x", d3.forceX((function(t) {
                             return c(t.l)
                         })).strength(1)).force("y", d3.forceY(i / 2)).force("collide", d3.forceCollide(a + 1)).alphaDecay(.0228).velocityDecay(.4).restart()).alpha(1);
                         for (var p = 0; p < 200; ++p) o.tick();
@@ -625,11 +626,7 @@
                         l.classed("is-visible", !1), f.classed("is-visible", !1), A.classed("highlight", !1), A.classed("faded", !1), A.classed("is-visible", !0), w.classed("is-visible", !1), w.classed("highlight", !1)
                     },
                     highlightLupita: function() {
-                        return f.classed("is-visible", !0), 
-                        r >= 480 ? (l.classed("is-visible", !0)) : 
-                        (l.classed("is-visible", !1)), 
-                        k.style("opacity", 0), j.style("opacity", 0), 
-                        E.style("opacity", 0), d3.selectAll(".tick").classed("is-emphasized", !1), I
+                        return f.classed("is-visible", !0), r >= 480 ? (l.classed("is-visible", !0), A.classed("highlight", !1), A.classed("faded", !0), w.classed("is-visible", !1), d3.selectAll(".model-img-Lupita-Nyongo").classed("highlight", !0), l.classed("is-visible", !0), d3.select(".switch input").classed("is-faces", !0), A.classed("is-visible", !0), w.classed("is-visible", !1), w.classed("highlight", !1), w.classed("faded", !1), A.classed("highlight", !1), A.classed("faded", !0), d3.selectAll(".model-img-Lupita-Nyongo").classed("highlight", !0)) : (l.classed("is-visible", !1), A.classed("highlight", !1), A.classed("is-visible", !1), w.classed("is-visible", !0), w.classed("highlight", !1), w.classed("faded", !1), d3.selectAll(".model-circle-Lupita-Nyongo").style("opacity", 1)), k.style("opacity", 0), j.style("opacity", 0), E.style("opacity", 0), d3.selectAll(".tick").classed("is-emphasized", !1), I
                     },
                     render: function() {
                         return I
