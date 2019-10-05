@@ -536,7 +536,7 @@
                             return t.l
                         }))), g = d3.axisBottom(c).tickPadding(8).ticks(10), d.select(".x").attr("transform", "translate(".concat(16, ",").concat(u + 16, ")")).call(g), s = d3.scaleLinear().rangeRound([0, i]).domain(d3.extent(e, (function(t) {
                             return t.year
-                        }))), y = d3.axisLeft(s).tickPadding(8).tickFormat(d3.format("d")).ticks(4), d.select(".y").attr("transform", "translate(".concat(40, ",").concat(16, ")")).call(y), j.attr("x1", (function(t) {
+                        }))), y = d3.axisLeft(s).tickPadding(8).tickFormat(d3.format("d")).ticks(3), d.select(".y").attr("transform", "translate(".concat(40, ",").concat(16, ")")).call(y), j.attr("x1", (function(t) {
                             return c(.44248366)
                         })).attr("y1", s(2e3) + a).attr("x2", (function(t) {
                             return c(.44248366)
