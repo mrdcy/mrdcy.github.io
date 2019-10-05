@@ -627,8 +627,7 @@
                     highlightLupita: function() {
                         return f.classed("is-visible", !0), 
                         r >= 480 ? (l.classed("is-visible", !0), A.classed("highlight", !1), A.classed("faded", !0)) : 
-                        (l.classed("is-visible", !1), A.classed("highlight", !1), 
-                        A.classed("is-visible", !1), w.classed("is-visible", !0), w.classed("highlight", !1), w.classed("faded", !1)), 
+                        (l.classed("is-visible", !1)), 
                         k.style("opacity", 0), j.style("opacity", 0), 
                         E.style("opacity", 0), d3.selectAll(".tick").classed("is-emphasized", !1), I
                     },
