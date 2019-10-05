@@ -4773,8 +4773,8 @@
                 0 === t && (j.node().checked = !1, E.classed("is-visible", !1), E.classed("faded", !1), I.classed("is-visible", !0), v.hideY());
                 // 1 === t && (, v.hideY());
                 2 === t && (v.highlightInitTones(n), v.scatterTransition(), v.showY());
-                // 3 === t && ( v.showY());
-                4 === t && (v.highlightYears(), v.highlightMids(), v.showY());
+                3 === t && (v.highlightYears(), v.showY());
+                4 === t && (v.highlightMids(), v.showY());
                 // 5 === t && ( v.showY());
                 6 === t && (v.transitionRectangle(), v.swapFaces(), v.highlightLupita(), v.showY());
                 7 === t && (g >= _ ? (E.classed("is-visible", !0), E.classed("faded", !1), I.classed("is-visible", !1)) : (E.classed("is-visible", !1), E.classed("faded", !1), I.classed("is-visible", !0)))
