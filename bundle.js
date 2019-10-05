@@ -628,7 +628,7 @@
                         return f.classed("is-visible", !0), 
                         r >= 480 ? (l.classed("is-visible", !0)) : 
                         (l.classed("is-visible", !1)), 
-                        k.style("opacity", 0), d3.selectAll(".tick").classed("is-emphasized", !1), I
+                        k.style("opacity", 0), I
                     },
                     render: function() {
                         return I
