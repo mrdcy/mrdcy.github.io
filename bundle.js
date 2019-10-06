@@ -4746,13 +4746,13 @@
     function L() {
         var t = O.node().options[O.node().selectedIndex].text.replace(" ", "-"),
             n = j.classed("is-faces");
-        "All-models" == t ? (j.classed("is-faces", !n), E.classed("is-visible", !n), E.classed("faded", !n), E.classed("highlight", !n), I.classed("is-visible", n), I.classed("highlight", !1)) : 1 == j.node().checked ? (j.classed("is-faces", !1), E.classed("highlight", !1), E.classed("faded", !1), E.classed("is-visible", !1), I.classed("is-visible", !0), d3.selectAll(".model-img-".concat(t)).classed("highlight", !0)) : 0 == j.node().checked && (j.classed("is-faces", !0), I.classed("highlight", !1), I.classed("is-visible", !1), E.classed("faded", !0), E.classed("highlight", !1), E.classed("is-visible", !1), d3.selectAll(".model-img-".concat(t)).classed("highlight", !0))
+        "All-contestants" == t ? (j.classed("is-faces", !n), E.classed("is-visible", !n), E.classed("faded", !n), E.classed("highlight", !n), I.classed("is-visible", n), I.classed("highlight", !1)) : 1 == j.node().checked ? (j.classed("is-faces", !1), E.classed("highlight", !1), E.classed("faded", !1), E.classed("is-visible", !1), I.classed("is-visible", !0), d3.selectAll(".model-img-".concat(t)).classed("highlight", !0)) : 0 == j.node().checked && (j.classed("is-faces", !0), I.classed("highlight", !1), I.classed("is-visible", !1), E.classed("faded", !0), E.classed("highlight", !1), E.classed("is-visible", !1), d3.selectAll(".model-img-".concat(t)).classed("highlight", !0))
     }
 
     function S() {
         var t = this.options[this.selectedIndex].text,
             n = t.replace("'", "").replace(" ", "-");
-        "All models" == t ? g >= _ && (1 == j.node().checked ? (E.classed("is-visible", !1), I.classed("is-visible", !0), I.classed("faded", !1)) : 0 == j.node().checked && (E.classed("is-visible", !0), I.classed("is-visible", !1), E.classed("faded", !1))) : (I.classed("highlight", !1), E.classed("faded", !1), E.classed("highlight", !1), g >= _ ? 1 == j.node().checked ? (E.classed("is-visible", !1), d3.selectAll(".model-img-".concat(n)).classed("highlight", !0).raise()) : 0 == j.node().checked && (E.classed("is-visible", !0), I.classed("is-visible", !1), E.classed("faded", !0), d3.selectAll(".model-img-".concat(n)).classed("highlight", !0).raise()) : d3.selectAll(".model-circle-".concat(n)).classed("highlight", !0).raise())
+        "All contestants" == t ? g >= _ && (1 == j.node().checked ? (E.classed("is-visible", !1), I.classed("is-visible", !0), I.classed("faded", !1)) : 0 == j.node().checked && (E.classed("is-visible", !0), I.classed("is-visible", !1), E.classed("faded", !1))) : (I.classed("highlight", !1), E.classed("faded", !1), E.classed("highlight", !1), g >= _ ? 1 == j.node().checked ? (E.classed("is-visible", !1), d3.selectAll(".model-img-".concat(n)).classed("highlight", !0).raise()) : 0 == j.node().checked && (E.classed("is-visible", !0), I.classed("is-visible", !1), E.classed("faded", !0), d3.selectAll(".model-img-".concat(n)).classed("highlight", !0).raise()) : d3.selectAll(".model-circle-".concat(n)).classed("highlight", !0).raise())
     }
 
     function M() {
@@ -4778,7 +4778,7 @@
                             offset: .7
                         }).onStepEnter(z), e = f.uniqBy(d, "model"), p.push(e.map((function(t) {
                             return t.model
-                        })).sort()), p[0].unshift("All models"), O.selectAll("option").data(p[0]).enter().append("option").text((function(t) {
+                        })).sort()), p[0].unshift("All contestants"), O.selectAll("option").data(p[0]).enter().append("option").text((function(t) {
                             return t
                         })).attr("value", (function(t) {
                             return t
