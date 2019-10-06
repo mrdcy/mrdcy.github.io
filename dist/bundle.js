@@ -593,15 +593,7 @@
                         _.classed("is-visible", !0)
                     },
                     swapFaces: function() {
-                        return f.classed("is-visible", !1), l.classed("is-visible", !1), r >= 480 ? (d3.select(".switch input").classed("is-faces", !0), A.classed("is-visible", !0), w.classed("is-visible", !1), w.classed("highlight", !1), A.classed("highlight", !1), A.classed("faded", !1)) : (A.classed("highlight", !1), A.classed("is-visible", !1), w.classed("is-visible", !0), w.classed("highlight", !1), w.style("opacity", 1)), k.style("opacity", 1), O.style("opacity", 1), j.style("opacity", 1).transition(1e3).ease(d3.easeLinear).attr("x1", (function(t) {
-                            return c(.212745098)
-                        })).attr("y1", s(2014) + a).attr("x2", (function(t) {
-                            return c(.212745098)
-                        })).attr("y2", s(2018) + 3 * a).attr("transform", "translate(0,-".concat(u + 2 * a, ")")), E.style("opacity", 1).transition(1e3).ease(d3.easeLinear).attr("x1", (function(t) {
-                            return c(.858226769)
-                        })).attr("y1", s(2014) + a).attr("x2", (function(t) {
-                            return c(.858226769)
-                        })).attr("y2", s(2018) + 3 * a).attr("transform", "translate(0,-".concat(u + 2 * a, ")")), I
+                        return f.classed("is-visible", !1), l.classed("is-visible", !1), r >= 480 ? (d3.select(".switch input").classed("is-faces", !0), A.classed("is-visible", !0), w.classed("is-visible", !1), w.classed("highlight", !1), A.classed("highlight", !1), A.classed("faded", !1)) : (A.classed("highlight", !1), A.classed("is-visible", !1), w.classed("is-visible", !0), w.classed("highlight", !1), w.style("opacity", 1)), k.style("opacity", 1), O.style("opacity", 1), I
                     },
                     highlightInitTones: function(t) {
                         return l.classed("is-visible", !1), f.classed("is-visible", !1), A.classed("faded", !1), A.classed("highlight", !1), A.classed("is-visible", !1), k.style("opacity", 0), O.style("opacity", 0), j.style("opacity", 0), E.style("opacity", 0), w.classed("is-visible", !0), w.classed("highlight", !1), d3.selectAll(".tick").classed("is-emphasized", !1), "up" === t && m.attr("transform", (function(t) {
