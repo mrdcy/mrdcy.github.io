@@ -621,28 +621,12 @@
                         })).classed("is-emphasized", !0), I
                     },
                     highlightMids: function() {
-                        l.classed("is-visible", !1), f.classed("is-visible", !1), A.classed("highlight", !1), A.classed("is-visible", !1), w.classed("is-visible", !0), w.classed("highlight", !1), k.style("opacity", 1).transition(1e3).ease(d3.easeLinear).attr("y", s(2006) - a).attr("height", s(2013) - s(2006) + 2 * a).attr("x", c(.354117647)).attr("width", c(.882352941) - c(.354117647)), O.style("opacity", 1).transition(1e3).ease(d3.easeLinear).attr("y", s(2006) - a).attr("height", s(2013) - s(2006) + 2 * a), j.style("opacity", 1).transition(1e3).ease(d3.easeLinear).attr("x1", (function(t) {
-                            return c(.354117647)
-                        })).attr("y1", s(2006) + a).attr("x2", (function(t) {
-                            return c(.354117647)
-                        })).attr("y2", s(2013) + 3 * a).attr("transform", "translate(0,-".concat(u + 2 * a, ")")), E.style("opacity", 1).transition(1e3).ease(d3.easeLinear).attr("x1", (function(t) {
-                            return c(.882352941)
-                        })).attr("y1", s(2006) + a).attr("x2", (function(t) {
-                            return c(.882352941)
-                        })).attr("y2", s(2013) + 3 * a).attr("transform", "translate(0,-".concat(u + 2 * a, ")")), d3.selectAll(".tick").classed("is-emphasized", !1).filter((function(t) {
+                        l.classed("is-visible", !1), f.classed("is-visible", !1), A.classed("highlight", !1), A.classed("is-visible", !1), w.classed("is-visible", !0), w.classed("highlight", !1), d3.selectAll(".tick").classed("is-emphasized", !1).filter((function(t) {
                             return t >= 2006 && t <= 2013
                         })).classed("is-emphasized", !0)
                     },
                     transitionRectangle: function() {
-                        l.classed("is-visible", !1), f.classed("is-visible", !1), A.classed("highlight", !1), A.classed("faded", !1), A.classed("is-visible", !0), w.classed("is-visible", !1), w.classed("highlight", !1), k.style("opacity", 1).transition(1e3).ease(d3.easeLinear).attr("y", s(2014) - a).attr("height", s(2018) - s(2014) + 2 * a).attr("x", c(.212745098)).attr("width", c(.858226769) - c(.212745098)), O.style("opacity", 1).transition(1e3).ease(d3.easeLinear).attr("y", s(2014) - a).attr("height", s(2018) - s(2014) + 2 * a), j.style("opacity", 1).transition(1e3).ease(d3.easeLinear).attr("x1", (function(t) {
-                            return c(.212745098)
-                        })).attr("y1", s(2014) + a).attr("x2", (function(t) {
-                            return c(.212745098)
-                        })).attr("y2", s(2018) + 3 * a).attr("transform", "translate(0,-".concat(u + 2 * a, ")")), E.style("opacity", 1).transition(1e3).ease(d3.easeLinear).attr("x1", (function(t) {
-                            return c(.858226769)
-                        })).attr("y1", s(2014) + a).attr("x2", (function(t) {
-                            return c(.858226769)
-                        })).attr("y2", s(2018) + 3 * a).attr("transform", "translate(0,-".concat(u + 2 * a, ")")), d3.selectAll(".tick").classed("is-emphasized", !1).filter((function(t) {
+                        l.classed("is-visible", !1), f.classed("is-visible", !1), A.classed("highlight", !1), A.classed("faded", !1), A.classed("is-visible", !0), w.classed("is-visible", !1), w.classed("highlight", !1),  d3.selectAll(".tick").classed("is-emphasized", !1).filter((function(t) {
                             return t >= 2014 && t <= 2018
                         })).classed("is-emphasized", !0)
                     },
