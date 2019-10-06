@@ -4743,7 +4743,7 @@
         j = w.select(".switch input"),
         E = null,
         I = null,
-        R = (d3.selectAll("#nyongo-button"), (d3.selectAll("#idris-button"), (d3.selectAll("#williamson-button"), d3.selectAll("#nyongo-all-button"), d3.selectAll("#hathaway-button"), d3.selectAll("#jones-button"), d3.selectAll("#berry-button"), d3.selectAll("#kebede-button"), d3.selectAll(".scroll-button"));
+        R = (d3.selectAll("#nyongo-button"), d3.selectAll("#nyongo-all-button"), d3.selectAll("#hathaway-button"), (d3.selectAll("#idris-button"), d3.selectAll("#jones-button"), d3.selectAll("#berry-button"), d3.selectAll("#kebede-button"), d3.selectAll(".scroll-button"));
 
     function T(t) {
         return t.map((function(t, n) {
@@ -4821,8 +4821,8 @@
                         })).attr("value", (function(t) {
                             return t
                         })), R.on("mouseover", (function() {
-                            if (1 == j.node().checked && g <= _) E.classed("faded", !1), E.classed("highlight", !1), E.classed("is-visible", !1), I.classed("is-visible", !0), "nyongo-button" == this.id && d3.select("#circle-id-208_01_2018_0").classed("highlight", !0), "idris-button" == this.id && d3.select("#circle-id-S4_Idris_Virgo-01").classed("highlight", !0), "williamson-button" == this.id && d3.select("#circle-id-S1_Chris_Williamson-01").classed("highlight", !0), "hathaway-button" == this.id && d3.select("#circle-id-200_11_2010_0").classed("highlight", !0), "jones-button" == this.id && d3.select("#circle-id-191_01_2001_0").classed("highlight", !0), "berry-button" == this.id && d3.select("#circle-id-192_12_2002_0").classed("highlight", !0), "kebede-button" == this.id && d3.select("#circle-id-195_05_2005_0").classed("highlight", !0);
-                            else if (1 == j.node().checked && g >= _) E.classed("faded", !1), E.classed("highlight", !1), E.classed("is-visible", !1), I.classed("is-visible", !0), "nyongo-button" == this.id && d3.select("#img-id-208_01_2018_0").classed("highlight", !0), "idris-button" == this.id && d3.select("#img-id-S4_Idris_Virgo-01").classed("highlight", !0), "williamson-button" == this.id && d3.select("#img-id-S1_Chris_Williamson-01").classed("highlight", !0), "hathaway-button" == this.id && d3.select("#img-id-200_11_2010_0").classed("highlight", !0), "jones-button" == this.id && d3.select("#img-id-191_01_2001_0").classed("highlight", !0), "berry-button" == this.id && d3.select("#img-id-192_12_2002_0").classed("highlight", !0), "kebede-button" == this.id && d3.select("#img-id-195_05_2005_0").classed("highlight", !0);
+                            if (1 == j.node().checked && g <= _) E.classed("faded", !1), E.classed("highlight", !1), E.classed("is-visible", !1), I.classed("is-visible", !0), "nyongo-button" == this.id && d3.select("#circle-id-208_01_2018_0").classed("highlight", !0), "idris-button" == this.id && d3.select("#circle-id-S4_Idris_Virgo-01").classed("highlight", !0),"hathaway-button" == this.id && d3.select("#circle-id-200_11_2010_0").classed("highlight", !0), "jones-button" == this.id && d3.select("#circle-id-191_01_2001_0").classed("highlight", !0), "berry-button" == this.id && d3.select("#circle-id-192_12_2002_0").classed("highlight", !0), "kebede-button" == this.id && d3.select("#circle-id-195_05_2005_0").classed("highlight", !0);
+                            else if (1 == j.node().checked && g >= _) E.classed("faded", !1), E.classed("highlight", !1), E.classed("is-visible", !1), I.classed("is-visible", !0), "nyongo-button" == this.id && d3.select("#img-id-208_01_2018_0").classed("highlight", !0), "idris-button" == this.id && d3.select("#img-id-S4_Idris_Virgo-01").classed("highlight", !0), "hathaway-button" == this.id && d3.select("#img-id-200_11_2010_0").classed("highlight", !0), "jones-button" == this.id && d3.select("#img-id-191_01_2001_0").classed("highlight", !0), "berry-button" == this.id && d3.select("#img-id-192_12_2002_0").classed("highlight", !0), "kebede-button" == this.id && d3.select("#img-id-195_05_2005_0").classed("highlight", !0);
                             else if (0 == j.node().checked) {
                                 if (I.classed("highlight", !1), "nyongo-button" == this.id) {
                                     var t = d3.select("#img-id-208_01_2018_0");
@@ -4830,10 +4830,6 @@
                                 }
                                 if ("idris-button" == this.id) {
                                     var n = d3.select("#img-id-S4_Idris_Virgo-01");
-                                    n.classed("highlight", !0), n.classed("is-visible", !0), n.classed("faded", !1)
-                                }
-                                if ("williamson-button" == this.id) {
-                                    var n = d3.select("#img-id-S1_Chris_Williamson-01");
                                     n.classed("highlight", !0), n.classed("is-visible", !0), n.classed("faded", !1)
                                 }
                                 if ("hathaway-button" == this.id) {
