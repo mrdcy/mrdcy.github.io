@@ -616,19 +616,13 @@
                         })), k.style("opacity", 0), O.style("opacity", 0), j.style("opacity", 0), E.style("opacity", 0), d3.selectAll(".tick").classed("is-emphasized", !1), I
                     },
                     highlightYears: function() {
-                        return l.classed("is-visible", !1), f.classed("is-visible", !1), w.classed("is-visible", !0), w.classed("highlight", !1), d3.selectAll(".tick").classed("is-emphasized", !1).filter((function(t) {
-                            return t <= 2005
-                        })).classed("is-emphasized", !0), I
+                        return l.classed("is-visible", !1), f.classed("is-visible", !1), w.classed("is-visible", !0), w.classed("highlight", !1), I
                     },
                     highlightMids: function() {
-                        l.classed("is-visible", !1), f.classed("is-visible", !1), A.classed("highlight", !1), A.classed("is-visible", !1), w.classed("is-visible", !0), w.classed("highlight", !1), d3.selectAll(".tick").classed("is-emphasized", !1).filter((function(t) {
-                            return t >= 2006 && t <= 2013
-                        })).classed("is-emphasized", !0)
+                        l.classed("is-visible", !1), f.classed("is-visible", !1), A.classed("highlight", !1), A.classed("is-visible", !1), w.classed("is-visible", !0), w.classed("highlight", !1)
                     },
                     transitionRectangle: function() {
-                        l.classed("is-visible", !1), f.classed("is-visible", !1), A.classed("highlight", !1), A.classed("faded", !1), A.classed("is-visible", !0), w.classed("is-visible", !1), w.classed("highlight", !1),  d3.selectAll(".tick").classed("is-emphasized", !1).filter((function(t) {
-                            return t >= 2014 && t <= 2018
-                        })).classed("is-emphasized", !0)
+                        l.classed("is-visible", !1), f.classed("is-visible", !1), A.classed("highlight", !1), A.classed("faded", !1), A.classed("is-visible", !0), w.classed("is-visible", !1), w.classed("highlight", !1)
                     },
                     highlightLupita: function() {
                         return f.classed("is-visible", !0), r >= 480 ? (l.classed("is-visible", !0), A.classed("highlight", !1), A.classed("faded", !0), w.classed("is-visible", !1), d3.selectAll(".model-img-Lupita-Nyongo").classed("highlight", !0), l.classed("is-visible", !0), d3.select(".switch input").classed("is-faces", !0), A.classed("is-visible", !0), w.classed("is-visible", !1), w.classed("highlight", !1), w.classed("faded", !1), A.classed("highlight", !1), A.classed("faded", !0), d3.selectAll(".model-img-Lupita-Nyongo").classed("highlight", !0)) : (l.classed("is-visible", !1), A.classed("highlight", !1), A.classed("is-visible", !1), w.classed("is-visible", !0), w.classed("highlight", !1), w.classed("faded", !1), d3.selectAll(".model-circle-Lupita-Nyongo").style("opacity", 1)), k.style("opacity", 0), j.style("opacity", 0), E.style("opacity", 0), d3.selectAll(".tick").classed("is-emphasized", !1), I
