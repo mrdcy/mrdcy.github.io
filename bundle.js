@@ -4743,7 +4743,7 @@
         j = w.select(".switch input"),
         E = null,
         I = null,
-        R = (d3.selectAll("#nyongo-button"), d3.selectAll("#nyongo-all-button"), d3.selectAll("#hathaway-button"), d3.selectAll("#jones-button"), d3.selectAll("#berry-button"), d3.selectAll("#kebede-button"), d3.selectAll(".scroll-button"));
+        R = (d3.selectAll("#nyongo-button"), (d3.selectAll("#idris-button"), (d3.selectAll("#williamson-button"), d3.selectAll("#nyongo-all-button"), d3.selectAll("#hathaway-button"), d3.selectAll("#jones-button"), d3.selectAll("#berry-button"), d3.selectAll("#kebede-button"), d3.selectAll(".scroll-button"));
 
     function T(t) {
         return t.map((function(t, n) {
@@ -4827,6 +4827,14 @@
                                 if (I.classed("highlight", !1), "nyongo-button" == this.id) {
                                     var t = d3.select("#img-id-208_01_2018_0");
                                     t.classed("highlight", !0), t.classed("is-visible", !0), t.classed("faded", !1)
+                                }
+                                if ("idris-button" == this.id) {
+                                    var n = d3.select("#img-id-S4_Idris_Virgo-01");
+                                    n.classed("highlight", !0), n.classed("is-visible", !0), n.classed("faded", !1)
+                                }
+                                if ("williamson-button" == this.id) {
+                                    var n = d3.select("#img-id-S1_Chris_Williamson-01");
+                                    n.classed("highlight", !0), n.classed("is-visible", !0), n.classed("faded", !1)
                                 }
                                 if ("hathaway-button" == this.id) {
                                     var n = d3.select("#img-id-200_11_2010_0");
