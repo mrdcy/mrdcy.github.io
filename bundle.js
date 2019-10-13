@@ -4732,8 +4732,8 @@
                 return e === t.index
             })),
             function(t, n) {
-                0 === t && (j.node().checked = !1, E.classed("is-visible", !1), E.classed("faded", !1), I.classed("is-visible", !0), v.hideY());
-                1 === t && (v.highlightInitTones(n), v.hideY());
+                0 === t && (j.node().checked = !1, E.classed("is-visible", !1), E.classed("faded", !1), I.classed("is-visible", !0), v.highlightInitTones(n), v.hideY());
+                1 === t && (v.hideY());
                 2 === t && (v.scatterTransition(), v.showY());
                 3 === t && (v.highlightYears(), v.showY());
                 4 === t && (v.highlightMids(), v.showY());
