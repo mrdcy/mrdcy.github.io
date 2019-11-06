@@ -571,7 +571,7 @@
                                     var n = t.data.file_name.split(".")[0];
                                     return "".concat(n, "-clipCircle")
                                 })).append("circle").attr("class", "clip-path"), x = d3.selectAll(".clip-path"), t.append("svg:image").attr("xlink:href", (function(t) {
-                                    return "assets/images/faces200/".concat(t.data.file_name)
+                                    return "https://raw.githubusercontent.com/mrdcy/mrdcy.github.io/master/dist/assets/images/faces200/".concat(t.data.file_name)
                                 })).attr("id", (function(t) {
                                     var n = t.data.file_name.split(".")[0];
                                     return "img-id-".concat(n)
@@ -4613,7 +4613,7 @@
                 })).classed("hidden", (function(t, n) {
                     return !e.values[n]
                 })), r.selectAll(".img-container img").attr("src", (function(t, n) {
-                    return e.values[n] ? "assets/images/covers500/".concat(e.values[n].coverFile) : ""
+                    return e.values[n] ? "https://raw.githubusercontent.com/mrdcy/mrdcy.github.io/master/dist/assets/images/covers500/".concat(e.values[n].coverFile) : ""
                 }));
                 r.selectAll(".img-tone").style("background-color", (function(t, n) {
                     return e.values[n] ? "".concat(e.values[n].tone) : "#FFFFFF"
