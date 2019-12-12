@@ -314,36 +314,29 @@
             <div class="g-annotations-overall">
                 <div class="g-annotation" style="left:100px;">
                     <div class="g-arrows">
-                        <div class="g-arrow g-arrow-vertical" style="left:50%;height:90px;"></div>
-                        <div class="g-arrow g-arrow-horizontal" style="left:10%;width:80%;bottom:95px;"></div>
+                        <div class="g-arrow g-arrow-vertical" style="left:15%;height:90px;"></div>
                     </div>
-                    每7家公司中就有一家的有效税率低于10％，其中<b>Amazon</b>6％，<b>Verizon</b>9％。九家公司根本没有缴税
-                </div>
-                <div class="g-annotation" style="left:260px;">
-                    <div class="g-arrows">
-                        <div class="g-arrow g-arrow-vertical" style="left:17px;height:153px;"></div>
-                    </div>
-                    每个圆圈代表一家公司，按市值计算。最大的是<b>Apple</b>，超过4000亿美元，有效税率为14％
+                    The darkest contestant is <b>Idris Virgo</b>.
+                    <br></br>
+                    It's worth noting that some contestants may appear lighter / darker than usual based on varying lighting.
                 </div>
                 <div class="g-annotation" style="left:440px;">
-                    将所有的收入和税收结合起来。标准普尔500的公司的实际税率为29.1%。但不同行业的税率差别很大
-                    <button class="g-button" data-view="sector" style="margin-top:20px;">View per Season</button>
+                   
+                    <button class="g-button" data-view="sector" style="margin-top:80px;">View per Season</button>
                 </div>
-                <div class="g-annotation" style="left:600px;">
+                <!-- <div class="g-annotation" style="left:620px;">
                     <div class="g-arrows">
-                        <div class="g-arrow g-arrow-vertical" style="bottom:55px;left:-50px;height:20px;"></div>
-                        <div class="g-arrow g-arrow-vertical" style="bottom:55px;left:-14px;height:23px;"></div>
-                        <div class="g-arrow g-arrow-vertical" style="bottom:55px;left:215px;height:46px;"></div>
-                        <div class="g-arrow g-arrow-horizontal" style="bottom:54px;left:-50px;width:266px;"></div>
-                        <div class="g-arrow g-arrow-vertical" style="left:50%;height:49px;"></div>
+                        <div class="g-arrow g-arrow-vertical" style="left:40%;height:49px;"></div>
                     </div>
-                    三大能源公司支付绝对最高的税收：埃克森美孚1460亿美元;雪佛龙850亿美元;和康菲石油公司58亿美元
-                </div>
-                <div class="g-annotation" style="left:780px;">
+                    The majority of contestants <b>tend to be lighter</b>.
+                    <br></br>
+                    Notice the beginning of the x-axis isn't even the darkest possible shade.
+                </div> -->
+                <div class="g-annotation" style="left:840px;">
                     <div class="g-arrows">
-                        <div class="g-arrow g-arrow-vertical" style="left:92px;height:87px;"></div>
+                        <div class="g-arrow g-arrow-vertical" style="left:85px;height:105px;"></div>
                     </div>
-                    有几十家公司的有效的税率无法计算，因为他们在6年的时间里亏了钱。例如，aig损失了83亿美元，同时还支付了80亿美元的税款。这些公司仍被纳入总体税率计算中。
+                    The lightest contestant is <b>Chris Williamson</b>.
                 </div>
             </div>
 
@@ -367,13 +360,13 @@
             <!--</svg>-->
             <div class="g-tip-content">
                 <div class="g-tip-title">Apple</div>
-                <div class="g-tip-metric" data-name="rate">
-                    <span class="g-tip-metric-name">有效税率</span>
-                    <span class="g-tip-metric-value">14%</span>
+                <div class="g-tip-metric" data-name="age">
+                    <span class="g-tip-metric-name">Age</span>
+                    <span class="g-tip-metric-value">24</span>
                 </div>
-                <div class="g-tip-metric" data-name="earnings">
-                    <span class="g-tip-metric-name">收入</span>
-                    <span class="g-tip-metric-value">$16.2B</span>
+                <div class="g-tip-metric" data-name="hometown">
+                    <span class="g-tip-metric-name">Hometown</span>
+                    <span class="g-tip-metric-value">London</span>
                 </div>
             </div>
         </div>
@@ -419,7 +412,7 @@
   const taxes = d => d.taxes
   const earnings = d => d.earnings
   const rate = (taxes, earnings) => earnings <= 0 ? NaN : taxes / earnings
-  const avgskin = d => d.average
+  //const hometown = d => d.hometown
   const index = d => d.index
   const type = d => {
     d.x = +d.x;
@@ -527,12 +520,16 @@
     .entries(companies)
 
   // 计算所有数据的平均税率
-  const overallRate = rate(d3.sum(companies, taxes), d3.sum(companies, earnings))
+  // const overallRate = rate(d3.sum(companies, taxes), d3.sum(companies, earnings))
+
+  const overallRate = d3.mean(companies, d => d.l)
 
   // 计算整个行业的平均税率 taxes / earnings (税收 / 收入)
   sectors.forEach(d => {
-    d.rate = rate(d3.sum(d.values, taxes), d3.sum(d.values, earnings)),
+    d.rate = d3.mean(d.values, d => d.l),
+    //d.rate = rate(d3.sum(d.values, taxes), d3.sum(d.values, earnings)),
     d.index = d.index
+    //d.hometown = d.hometown
   })
 
   // 根据每个行业的税率做一个升序
@@ -540,12 +537,7 @@
 
   console.log('-----sectors', sectors)
 
-  // 计算每一个公司的税率
-  companies.forEach(d => {
-    d.rate = rate(d.taxes, d.earnings)
-  })
-
-  height = 100 * sectors.length
+  height = 80 * sectors.length
 
   y.domain(sectors.map(d => d.key))
     .range([60, height- 60]) // 这里和原来不一样了，因为方法改变导致计算出的高度都有差异，所以调整了一下
@@ -593,7 +585,7 @@
     .enter().append("circle")
     .attr("cx", d => d.cx)
     .attr("cy", d => d.cy - y(d.sector) + y0(nameAll))
-    .attr("r", d => r(d.capitalization))
+    .attr("r", d => r(d.pcnt_of_time_in_villa * 1750000000))
     .style("fill", d => d.hex)
     .on("mouseover", mouseover)
     .on("mouseout", mouseout)
@@ -925,10 +917,12 @@
 
     tipMetric.select(".g-tip-metric-value").text(function(name) {
       switch (name) {
-        case "rate": return isNaN(d.rate) ? "N.A." : formatPercent(d.rate);
+        case "rate": return isNaN(d.x) ? "N.A." : formatPercent(d.rate);
         case "taxes": return formatDollars(d.taxes);
         case "earnings": return formatDollars(d.earnings);
         case "hex": return d.hex;
+        case "age": return d.age;
+        case "hometown": return d.hometown;
       }
     });
   }
