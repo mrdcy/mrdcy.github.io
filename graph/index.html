@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Alegreya:400,400i,500,500i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
+    <title>Figure 1</title>
     <style>
         body {
             padding: 0;
@@ -11,12 +12,16 @@
         .g-content {
             position: relative;
             font: 11px sans-serif;
+            font-family: 'Alegreya', sans-serif;
+            font-weight: 500;
             width: 970px;
             /*height: 1600px;*/
         }
 
         .g-annotations {
             font-size: 12px;
+            font-family: 'Alegreya', sans-serif;
+            font-weight: 400;
             line-height: 1.2em;
             position: absolute;
             top: 350px;
@@ -32,6 +37,8 @@
             background: #f5dede;
             color: #000;
             font-weight: bold;
+            font-family: 'Alegreya', sans-serif;
+            font-weight: 700;
             width: 140px;
         }
 
@@ -58,7 +65,9 @@
         }
 
         .g-y.g-axis text {
-            font: bold 14px sans-serif;
+            font: bold 12px sans-serif;
+            font-family: 'Alegreya', sans-serif;
+            font-weight: 700;
         }
 
         .g-y.g-axis line {
@@ -120,8 +129,9 @@
             border-bottom-color: #ccc;
             color: #888;
             cursor: pointer;
-            font: inherit;
             font-size: 12px;
+            font-family: 'Alegreya', sans-serif;
+            font-weight: 500;
             line-height: 18px;
             margin: 0 -1px 0 0;
             padding: 4px 8px;
@@ -136,6 +146,7 @@
             border-top-color: #bbb;
             box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
             color: #222;
+            font-family: 'Alegreya', sans-serif;
             font-weight: 600;
         }
 
@@ -166,6 +177,8 @@
             width: 280px;
             height: 26px;
             font: 12px sans-serif;
+            font-family: 'Alegreya', sans-serif;
+            font-weight: 500;
             padding: 0 8px;
             border: solid 1px #ccc;
             border-radius: 4px;
@@ -182,6 +195,8 @@
             border-radius: 9px;
             color: #fff;
             font: 10px sans-serif;
+            font-family: 'Alegreya', sans-serif;
+            font-weight: 500;
             padding: 0;
             width: 18px;
             height: 18px;
@@ -256,6 +271,8 @@
         .g-tip-title,
         .g-tip-metric-value {
             font-weight: bold;
+            font-family: 'Alegreya', sans-serif;
+            font-weight: 500;
         }
 
         .g-tip-title {
@@ -286,6 +303,8 @@
             color: #777;
             position: absolute;
             font-size: 11px;
+            font-family: 'Alegreya', sans-serif;
+            font-weight: 500;
             top: 20px;
             left: 10px;
             margin-top: 65px;
@@ -506,7 +525,7 @@
   titleX.append('tspan')
     .attr('x', -20)
     .style('font-weight', 'bold')
-    .text('有效税率')
+    .text('XXXX')
 
   titleX.append('tspan')
     .attr('x', -20)
@@ -953,7 +972,7 @@
     g.append('text')
       .attr('x', -55)
       .style('text-anchor', 'end')
-      .style('font', 'bold 9px sans-serif')
+      .style('font', 'bold 10px Alegreya, sans-serif')
       .text('CHART KEY')
 
     const gColor = g.append('g')
