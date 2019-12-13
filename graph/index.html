@@ -374,7 +374,7 @@
 </div>
 
 <script src="https://d3js.org/d3.v4.min.js"></script>
-<script src="https://mrdcy.github.io/graph/companies.js"></script>
+<script src="companies.js"></script>
 <script>
     /**
      * 【原图地址】 https://codepen.io/ANTINEA/pen/gwbRrd
@@ -537,7 +537,7 @@
 
   console.log('-----sectors', sectors)
 
-  height = 80 * sectors.length
+  height = 120 * sectors.length
 
   y.domain(sectors.map(d => d.key))
     .range([60, height- 60]) // 这里和原来不一样了，因为方法改变导致计算出的高度都有差异，所以调整了一下
