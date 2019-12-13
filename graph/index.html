@@ -556,7 +556,7 @@
 
   console.log('-----sectors', sectors)
 
-  height = 120 * sectors.length
+  height = 100 * sectors.length
 
   y.domain(sectors.map(d => d.key))
     .range([60, height- 60]) // 这里和原来不一样了，因为方法改变导致计算出的高度都有差异，所以调整了一下
