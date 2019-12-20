@@ -7,6 +7,15 @@
 		  /*font-family: "Helvetica Neue", Helvetica;*/
 		}
 
+		.g-button {
+            background: #f5dede;
+            color: #000;
+            font-weight: bold;
+            font-family: 'Alegreya', sans-serif;
+            font-weight: 700;
+            width: 140px;
+        }
+
 		#progress {
 		  z-index: 1;
 		  display: block;
