@@ -3,7 +3,7 @@
 		  margin: 0;
 		  font-size: 14px;
 		  font-family: 'Alegreya', sans-serif;
-      text-align: left;
+      text-align: center;
 		  /*font-family: Oswald;*/
 		  /*font-family: "Helvetica Neue", Helvetica;*/
 		}
@@ -16,7 +16,7 @@
 		  width: 640px;
 		  /*padding-top: 5px;*/
 		  visibility: auto;
-      text-align: left;
+      text-align: center;
       margin: 0 auto;
 		}
 
@@ -29,7 +29,7 @@
 		  color: #363636;
 		  position: relative;
 		  /*width: 80px;*/
-		  text-align: left;
+		  text-align: center;
 		  width: 30%;
 		  margin: 0 auto;
 		  border: 1px solid;
@@ -88,7 +88,7 @@
 		  width: 100px;
 		  cursor: pointer;	
 		  float: left;	
-		  text-align: left;
+		  text-align: right;
 		}
 		
 		line {
@@ -108,7 +108,7 @@
 		.explanation{
 		  font-size: 16px;
 		  font-weight: 300;
-		  text-align: left;
+		  text-align: center;
 		}
 		
 		path.chord {
