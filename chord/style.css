@@ -13,7 +13,6 @@
 		  position: relative;
 		  width: 40%;
 		  height: 6px;
-		  margin: 10px auto;
 		  visibility: hidden;
 		}
 		
@@ -69,8 +68,8 @@
 		}
 
 		.titles{
-		  font-size: 14px;
-		  font-weight: 500;
+		  font-size: 13px;
+		  font-weight: 400;
 		}
 
 		.explanation{

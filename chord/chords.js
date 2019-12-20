@@ -136,6 +136,7 @@ ticks.append("svg:text")
 	.attr("x", 8)
 	.attr("dy", ".35em")
 	.attr("class", "tickLabels")
+	.style('fill', '#555')
 	.attr("transform", function(d) { return d.angle > Math.PI ? "rotate(180)translate(-16)" : null; })
 	.style("text-anchor", function(d) { return d.angle > Math.PI ? "end" : null; })
 	.text(function(d) { return d.label; })
@@ -149,6 +150,7 @@ g.append("svg:text")
   .each(function(d) { d.angle = (d.startAngle + d.endAngle) / 2; })
   .attr("dy", ".35em")
   .attr("class", "titles")
+  .style('fill', '#555')
   .attr("text-anchor", function(d) { return d.angle > Math.PI ? "end" : null; })
   .attr("transform", function(d) {
 		return "rotate(" + (d.angle * 180 / Math.PI - 90) + ")"
@@ -329,7 +331,7 @@ function finalChord() {
 	/*Show all the text*/
 	d3.selectAll("g.group").selectAll("line")
 		.transition().duration(100)
-		.style("stroke","#000");
+		.style("stroke","#fff");
 	/*Same for the %'s*/
 	svg.selectAll("g.group")
 		.transition().duration(100)
