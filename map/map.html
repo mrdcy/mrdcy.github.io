@@ -45,10 +45,10 @@
 	function getColor(d) {
 		return d > 30  ? '#2a2323' :
 				d > 25  ? '#5c4040' :
-				d > 30   ? '#945656' :
+				d > 30   ? '#c87187' :
 				d > 15   ? '#dda8a8' :
 				d > 10   ? '#f5dede' :
-				d > 5   ? '#c9c0c0' :
+				d > 5   ? '#add8cf' :
 							'#add6d8';
 	}
 
@@ -113,7 +113,7 @@
 	legend.onAdd = function (map) {
 
 		var div = L.DomUtil.create('div', 'info legend'),
-			grades = [0, 6, 11, 16, 21, 26, 31],
+			grades = [0, 5, 10, 15, 20, 25, 30],
 			labels = [],
 			from, to;
 
