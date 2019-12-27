@@ -4,7 +4,7 @@
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin=""/>
 <link href="https://fonts.googleapis.com/css?family=Alegreya:400,400i,500,500i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
 <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js" integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og==" crossorigin=""></script>
-<style>#map { width: 90%; height: 70vh; }
+<style>#map { width: 90%; height: 550px; }
 .info { padding: 6px 8px; font: 14px/16px Alegreya, sans-serif; background: white; background: rgba(255,255,255,0.8); box-shadow: 0 0 15px rgba(0,0,0,0.2); border-radius: 5px; } .info h4 { margin: 0 0 5px; color: #777; }
 .legend { text-align: left; line-height: 18px; color: #555; } .legend i { width: 18px; height: 18px; float: left; margin-right: 8px; opacity: 0.7; }</style>
 </head>
@@ -36,8 +36,8 @@
 
 	info.update = function (props) {
 		this._div.innerHTML = '<b>' + 'Love Island Contestants by Region ' +'</b>' +  (props ?
-			'<b>' + props.name + '</b><br />' + props.density + ' contestants'
-			: ' | Hover over a state');
+			'<b>' + '— <strong>' + props.name + '</b><br />' + props.density + ' contestants</strong>'
+			: '</b><br /><strong>Hover over a region</strong>');
 	};
 
 	info.addTo(map);
