@@ -543,11 +543,11 @@
   // 计算所有数据的平均税率
   // const overallRate = rate(d3.sum(companies, taxes), d3.sum(companies, earnings))
 
-  const overallRate = d3.mean(companies, d => d.age) / 100
+  const overallRate = d3.mean(companies, d => d.age + 27.5) / 100
 
   // 计算整个行业的平均税率 taxes / earnings (税收 / 收入)
   sectors.forEach(d => {
-    d.rate = d3.mean(d.values, d => d.age) / 100,
+    d.rate = d3.mean(d.values, d => d.age + 27.5) / 100,
     //d.rate = rate(d3.sum(d.values, taxes), d3.sum(d.values, earnings)),
     d.index = d.index
     //d.hometown = d.hometown
@@ -644,14 +644,14 @@
   // 这里其实可以不要tspan， 直接用text就可以了
   sectorOverallText.append("tspan")
     .attr("x", 0)
-    .text(d => d3.format(".4s")(d.rate * 100))
+    .text(d => d3.format(".4s")(d.rate * 100 - 27.5))
 
   // 12行业的第一个额外增加一个文本描述overall
   sectorOverallText.filter((d, i) => !i).append("tspan")
     .attr("x", 0)
     .attr("dy", "-11")
     .style("font-size", "8px")
-    .text("OVERALL")
+    .text("AVERAGE AGE")
 
   /** 总体视图的均值线 -------------------------------------- **/
 
@@ -670,13 +670,13 @@
   overallText.append("tspan")
     .attr("x", 0)
     .style("font-size", "13px")
-    .text(overallRate * 100)
+    .text(d3.format(".3s")(overallRate * 100 - 27.5))
 
   overallText.append("tspan")
     .attr("x", 0)
     .attr("dy", "-14")
     .style("font-size", "8px")
-    .text("OVERALL")
+    .text("AVERAGE AGE")
 
   /** -------------------------------------- **/
 
