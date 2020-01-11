@@ -1,0 +1,1102 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya:400,400i,500,500i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
+    <title>Figure 1</title>
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+        }
+        .g-content {
+            position: relative;
+            font: 12px sans-serif;
+            font-family: 'Alegreya', sans-serif;
+            font-weight: 400;
+            width: 970px;
+            /*height: 1600px;*/
+        }
+
+        .g-annotations {
+            font-size: 13px;
+            font-family: 'Alegreya', sans-serif;
+            font-weight: 400;
+            line-height: 1.2em;
+            position: absolute;
+            top: 475px;
+        }
+
+        .g-annotation {
+            color: #555;
+            position: absolute;
+            width: 140px;
+        }
+
+        .g-annotation .g-button {
+            background: #dedef5;
+            color: #000;
+            font-weight: bold;
+            font-family: 'Alegreya', sans-serif;
+            font-weight: 700;
+            width: 140px;
+        }
+
+        .g-annotation .g-button:hover {
+            background: #cacaef;
+        }
+
+        .g-annotation .g-button:active {
+            background: #a3a3e3;
+        }
+
+        .g-axis {
+            pointer-events: none;
+        }
+
+        .g-axis line {
+            fill: none;
+            stroke: #000;
+            shape-rendering: crispEdges;
+        }
+
+        .g-axis path {
+            display: none;
+        }
+
+        .g-y.g-axis text {
+            font: bold 12px sans-serif;
+            font-family: 'Alegreya', sans-serif;
+            font-weight: 700;
+        }
+
+        .g-y.g-axis line {
+            stroke: #ccc;
+            stroke-dasharray: 1,1;
+        }
+
+        .g-overall {
+            pointer-events: none;
+        }
+
+        .g-overall line {
+            stroke: #000;
+            stroke-width: 2px;
+        }
+
+        .g-overall text {
+            text-anchor: middle;
+        }
+
+        .g-sector circle {
+            fill: #ddd;
+        }
+
+        .g-sector circle.g-active {
+            stroke: #000;
+            stroke-width: 3px;
+        }
+
+        .g-searching .g-sector .g-match {
+            stroke-width: 1px;
+        }
+
+        .g-searching .g-sector circle:not(.g-match) {
+            fill-opacity: .2;
+        }
+
+        .g-buttons {
+            margin: 40px 0 20px 125px;
+        }
+
+        .g-buttons .g-button {
+            width: 13em;
+            border: solid 1px #ddd;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.08);
+        }
+
+        .g-buttons .g-button:hover {
+            border-color: #ccc;
+            border-bottom-color: #bbb;
+            box-shadow: 0 1px 2px rgba(0,0,0,.15);
+            color: #666;
+        }
+
+        .g-button {
+            background: #fff;
+            border: none;
+            border-radius: 3px;
+            border-bottom-color: #ccc;
+            color: #888;
+            cursor: pointer;
+            font-size: 12px;
+            font-family: 'Alegreya', sans-serif;
+            font-weight: 500;
+            line-height: 18px;
+            margin: 0 -1px 0 0;
+            padding: 4px 8px;
+            white-space: nowrap;
+            outline: none;
+        }
+
+        .g-buttons .g-button.g-active,
+        .g-buttons .g-button:active {
+            background: #f0f0f0;
+            border-color: #ccc;
+            border-top-color: #bbb;
+            box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+            color: #222;
+            font-family: 'Alegreya', sans-serif;
+            font-weight: 800;
+        }
+
+        .g-buttons .g-button:first-child {
+            border-radius: 5px 0 0 5px;
+        }
+
+        .g-buttons .g-button:last-child {
+            border-radius: 0 5px 5px 0;
+            margin-left: -5px;
+        }
+
+        .g-buttons .g-button:focus {
+            z-index: 3;
+        }
+
+        .g-buttons .g-button.g-active {
+            z-index: 2;
+        }
+
+        .g-search {
+            float: right;
+            position: relative;
+            margin-right: 124px;
+        }
+
+        .g-search input {
+            width: 280px;
+            height: 26px;
+            font: 12px sans-serif;
+            font-family: 'Alegreya', sans-serif;
+            font-weight: 500;
+            padding: 0 8px;
+            border: solid 1px #ccc;
+            border-radius: 4px;
+            box-shadow: inset 0 1px 2px rgba(0,0,0,0.08);
+            outline: none
+        }
+
+        .g-search .g-search-clear {
+            position: absolute;
+            right: 5px;
+            top: 5px;
+            background: #bbb;
+            border: none;
+            border-radius: 9px;
+            color: #fff;
+            font: 10px sans-serif;
+            font-family: 'Alegreya', sans-serif;
+            font-weight: 500;
+            padding: 0;
+            width: 18px;
+            height: 18px;
+        }
+
+        .g-search .g-search-clear:hover {
+            background: #aaa;
+        }
+
+        .g-key-color path {
+            display: none;
+        }
+
+        .g-key-color line {
+            stroke: #000;
+            shape-rendering: crispEdges;
+        }
+
+        .g-arrows {
+            position: absolute;
+            pointer-events: none;
+            top: 0;
+            height: 0;
+            width: 100%;
+        }
+
+        .g-arrow {
+            position: absolute;
+            bottom: 5px;
+        }
+
+        .g-arrow-vertical {
+            width: 0;
+            border-right: solid 1px #ccc;
+        }
+
+        .g-arrow-horizontal {
+            height: 0;
+            border-top: solid 1px #ccc;
+        }
+
+        .g-tip {
+            position: absolute;
+            pointer-events: none;
+        }
+
+        .g-tip-shadow {
+            position: absolute;
+            box-shadow: 0 4px 8px rgba(0,0,0,.2);
+            width: 100%;
+            height: 100%;
+            background: #fff;
+        }
+
+        .g-tip-content {
+            position: absolute;
+            padding: 6px;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            width: 100%;
+            height: 100%;
+        }
+
+        .g-tip-box {
+            position: absolute;
+            fill: #fff;
+            stroke: #000;
+            stroke-opacity: .2;
+        }
+
+        .g-tip-title,
+        .g-tip-metric-value {
+            font-weight: bold;
+            font-family: 'Alegreya', sans-serif;
+            font-weight: 700;
+        }
+
+        .g-tip-title {
+            margin-bottom: 4px;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+        }
+
+        .g-tip-metric {
+            clear: right;
+            padding: 2px 0;
+        }
+
+        .g-tip-metric + .g-tip-metric {
+            border-top: solid 1px #eee;
+        }
+
+        .g-tip-metric-value {
+            float: right;
+        }
+
+        .g-tip-metric-name {
+            color: #777;
+        }
+
+        .g-sector-notes {
+            color: #777;
+            position: absolute;
+            font-size: 11px;
+            font-family: 'Alegreya', sans-serif;
+            font-weight: 500;
+            top: 20px;
+            left: 10px;
+            margin-top: 65px;
+            width: 240px;
+        }
+
+        .g-sector-note {
+            position: absolute;
+        }
+
+        .g-annotation b,
+        .g-sector-note b {
+            color: #222;
+            cursor: default;
+        }
+
+    </style>
+</head>
+<body>
+
+<div id="shell">
+    <div class="g-content">
+        <div class="g-annotations">
+
+            <!-- 总视图下的五段文字描述 -->
+            <div class="g-annotations-overall">
+                <div class="g-annotation" style="left:100px;">
+                    <div class="g-arrows">
+                        <div class="g-arrow g-arrow-vertical" style="left:17.5%;height:190px;"></div>
+                    </div>
+                    The youngest contestant to have appeared on Love Island is <b>Amelia Peters</b> at <b>18 years old</b>.
+                </div>
+                <div class="g-annotation" style="left:440px;">
+                   
+                    <button class="g-button" data-view="sector" style="margin-top:20px;">View per Season</button>
+                </div>
+                <!-- <div class="g-annotation" style="left:620px;">
+                    <div class="g-arrows">
+                        <div class="g-arrow g-arrow-vertical" style="left:40%;height:49px;"></div>
+                    </div>
+                    The majority of contestants <b>tend to be lighter</b>.
+                    <br></br>
+                    Notice the beginning of the x-axis isn't even the darkest possible shade.
+                </div> -->
+                <div class="g-annotation" style="left:840px;">
+                    <div class="g-arrows">
+                        <div class="g-arrow g-arrow-vertical" style="left:85px;height:120px;"></div>
+                    </div>
+                    The oldest Islanders to appear were <b>Jordan Ring</b>, <b>Marcel Somerville</b> and <b>Paul Knops</b> at <b>31 years old</b>.
+                </div>
+            </div>
+
+        </div>
+        <div class="g-graphic">
+            <div class="g-search">
+                <input type="text" placeholder="Find a contestant&hellip;">
+                <button style="display:none;" class="g-search-clear">X</button>
+            </div>
+            <div class="g-buttons">
+                <button class="g-button g-active" data-view="overall">All Seasons</button>
+                <button class="g-button" data-view="sector">Season by Season</button>
+            </div>
+        </div>
+        <div class="g-sector-notes"></div>
+
+        <div class="g-tip" style="width:150px;height:70px;display: none">
+            <div class="g-tip-shadow"></div>
+            <!--<svg class="g-tip-box" width="150" height="107">-->
+                <!--<path transform="translate(75,91)" d="M0.5,-6.5l5,-5H74.5v-89H-74.5v89H-5Z"></path>-->
+            <!--</svg>-->
+            <div class="g-tip-content">
+                <div class="g-tip-title">Apple</div>
+                <div class="g-tip-metric" data-name="age">
+                    <span class="g-tip-metric-name">Age</span>
+                    <span class="g-tip-metric-value">24</span>
+                </div>
+                <div class="g-tip-metric" data-name="hometown">
+                    <span class="g-tip-metric-name">Hometown</span>
+                    <span class="g-tip-metric-value">London</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="./companies.js"></script>
+<script>
+    /**
+     * 【原图地址】 https://codepen.io/ANTINEA/pen/gwbRrd
+     * 【改动点】
+     *   1. d3.v3 => d3.v4
+     *   2. 搜索选中和hover选中circle的方式更改
+     *   3. 过滤了很多无用的部分
+     *   4. .each("end", function() {})  =>  .on('end', function() {}) 动画结束后的事件
+     * 【问题】这个图中的circle位置的变幻是通过数据直接得到的，至于这个数据怎么来的不知道，这意味着不通用，因为我不知道圆的位置是怎么算出来的
+     */
+
+
+
+  let margin = {top: 20, right: 95, bottom: 10, left: 125},
+    width = 970 - margin.left - margin.right,
+    height,
+    tickExtension = 20; // extend grid lines beyond scale range
+
+  const formatPercent = d3.format(".0%"),
+    formatTenthPercent = d3.format(".001%"),
+    formatNumber = d3.format(",.3s"),
+    formatDollars = function(d) { return (d < 0 ? "-" : "") + "$" + formatNumber(Math.abs(d)).replace(/G$/, "B"); }
+
+  const nameAll = 'All Seasons'
+
+  const sectorNoteByName = {
+    "Season 1": '2015',
+    "Season 2": '2016',
+    "Season 3": '2017',
+    "Season 4": '2018',
+    "Season 5": '2019',
+  }
+
+
+  const taxes = d => d.taxes
+  const earnings = d => d.earnings
+  const rate = (taxes, earnings) => earnings <= 0 ? NaN : taxes / earnings
+  //const hometown = d => d.hometown
+  const index = d => d.index
+  const type = d => {
+    d.x = +d.x;
+    d.y = +d.y;
+    d.cx = +d.cx;
+    d.cy = +d.cy;
+    d.taxes *= 1e6;
+    d.earnings *= 1e6;
+    d.capitalization *= 1e6;
+    d.average *= 1e2;
+    return d;
+  }
+
+  /** **********************************************/
+
+    // 顶部轴比例尺
+  const x = d3.scaleLinear()
+      .domain([0, 1])
+      .rangeRound([0, width - 60])
+      .clamp(true)
+      .nice()
+
+  // d3.scale.ordinal() => d3.scalePoint()
+  const y = d3.scalePoint()
+
+  const y0 = d3.scaleOrdinal()
+    .domain([nameAll])
+    .range([150])
+
+  const r = d3.scaleSqrt()
+    .domain([0, 1e9])
+    .range([0, 1])
+
+  const z = d3.scaleThreshold()
+    .domain([.4])
+    .range(["#a3a3e3"]) 
+
+  const zx = d3.scaleThreshold()
+    .domain([.4])
+    .range(["#a3e3a3"])
+
+  const xAxis = d3.axisTop()
+    .scale(x)
+    .tickValues([])
+    // .ticks(1)
+    // .tickFormat("")
+
+  const yAxis = d3.axisLeft()
+    .scale(y)
+    .tickSize(-width -50 - tickExtension * 2, 0)
+    .tickPadding(6)
+
+  // 柱图部分的svg
+  const svg = d3.select('.g-graphic')
+    .append('svg')
+    .attr('height', 470 + margin.top + margin.bottom)
+    .attr('width', width + margin.left + margin.right)
+    .append('g')
+    .attr('transform', `translate(${margin.left}, ${margin.top})`)
+
+
+  // 底部图说明图例部分的svg
+  d3.select('.g-graphic')
+    .append('svg')
+    .style('margin-top', '20px')
+    .attr('height', 80)
+    .attr('width', width + margin.left + margin.right)
+    .append('g')
+    .attr('transform', `translate(${margin.left}, ${margin.top})`)
+    .call(renderChartKey)
+
+  // 顶部的x轴
+  const gx = svg.append("g")
+    .attr("class", "g-x g-axis")
+    .call(xAxis)
+  /** 加注释 */
+  gx.append('title').text('全局视图时的有效税率坐标轴')
+
+  // 选中所有x轴的文本部分
+  const tickLast = gx.selectAll(".g-x .tick:last-of-type")
+
+
+  // 这里的this是x轴中的单个tick, 这copy一个然后改变文字为N.A
+  tickLast.select(function() { return this.parentNode.appendChild(this.cloneNode(true)) })
+    .attr("transform", `translate(${width}, 0)`)
+    .select("text")
+    .text("N.A.")
+
+  // x轴最左边添加说明文字
+  const titleX = gx.append('text')
+    .attr('class', 'g-title')
+    .attr('y', -9)
+    .style('text-anchor', 'end')
+
+  titleX.append('tspan')
+    .attr('x', -20)
+    .style('font-weight', 'bold')
+    .text('XXXX')
+
+  titleX.append('tspan')
+    .attr('x', -20)
+    .attr('dy', '1em')
+    .text('2007-12')
+
+  /** -------------------------------------------------**/
+
+  const sectors = d3.nest()
+    .key(d => d.sector)
+    .entries(companies)
+
+  // 计算所有数据的平均税率
+  // const overallRate = rate(d3.sum(companies, taxes), d3.sum(companies, earnings))
+
+  const overallRate = d3.mean(companies, d => d.age) / 100
+
+  // 计算整个行业的平均税率 taxes / earnings (税收 / 收入)
+  sectors.forEach(d => {
+    d.rate = d3.mean(d.values, d => d.age) / 100,
+    //d.rate = rate(d3.sum(d.values, taxes), d3.sum(d.values, earnings)),
+    d.index = d.index
+    //d.hometown = d.hometown
+  })
+
+  // 根据每个行业的税率做一个升序
+  // sectors.sort((a, b) => a.index - b.index)
+
+  console.log('-----sectors', sectors)
+
+  height = 120 * sectors.length
+
+  y.domain(sectors.map(d => d.key))
+    .range([60, height- 60]) // 这里和原来不一样了，因为方法改变导致计算出的高度都有差异，所以调整了一下
+
+  // x轴, 12个x轴, 根据行业划分的时候预览
+  svg.append("g")
+    .attr("class", "g-y g-axis g-y-axis-sector")
+    .attr("transform", `translate(-${tickExtension}, 0)`)
+    .call(yAxis.scale(y))  // 生成y轴
+    .call(yAxisWrap)
+    .style("stroke-opacity", 0)
+    .style("fill-opacity", 0)
+    .selectAll(".tick text,.tick tspan")
+    .attr("x", -95)
+    .style("text-anchor", "start")
+  /** 加注释 **/
+  d3.select('.g-y-axis-sector').append('title').text('12个分视图的x轴')
+
+
+  // 总体视图的时候展示的x轴
+  svg.append("g")
+    .attr("class", "g-y g-axis g-y-axis-overall")
+    .attr("transform", `translate(-${tickExtension}, 50)`)
+    .call(yAxis.scale(y0))
+    .call(yAxisWrap) // 为了将过长的text切成两个tspan, call的时候会将当前g传入
+  /** 加注释*/
+  d3.select('.g-y-axis-overall').append('title').text('这是总视图的x轴')
+
+  /** 12组行业的circle ------------------------------------------- **/
+
+
+    // 这里好像也是12组小图的逻辑
+  const sector = svg.append("g")
+      .attr("class", "g-sector")
+      .selectAll("g")
+      .data(sectors)
+      .enter().append("g")
+      .attr("transform", d =>  `translate(0, ${y(d.key)})`)
+
+  // 12个行业sector中插入对应公司的circle, 这里的sectorCompany代表所有的circle(分成了12组)
+  const sectorCompany = sector.append("g")
+    .attr("class", "g-sector-company")
+    .selectAll("circle")
+    .data(d => d.values)
+    .enter().append("circle")
+    .attr("cx", d => d.cx)
+    .attr("cy", d => d.cy - y(d.sector) + y0(nameAll))
+    .attr("r", d => r(d.pcnt_of_time_in_villa * 1750000000))
+    .style("fill", d => d.genderhex)
+    .on("mouseover", mouseover)
+    .on("mouseout", mouseout)
+
+
+  /** 12段行业描述 ------------------------------------------- **/
+
+  // 12段各行业的描述文本, 这里操作html节点
+  d3.select(".g-sector-notes")
+    .style("opacity", 0)
+    .style("display", "none")
+    .selectAll("div")
+    .data(sectors)
+    .enter().append("div")
+    .attr("class", "g-sector-note")
+    .style("top", d =>  y(d.key) + "px")
+    .html(d => sectorNoteByName[d.key])
+
+  /** 12个分视图的均值线 -------------------------------------- **/
+
+    // 在sector中插入代表平均值的竖线和数值
+  const sectorOverall = sector.append("g")
+      .attr("class", "g-overall")
+      .attr("transform", d => `translate(${x(d.rate)}, ${(y0(nameAll) - y(d.key))})`)
+      .style("stroke-opacity", 0)
+      .style("fill-opacity", 0)
+
+  sectorOverall.append("line")
+  //                .attr("y1", -100)
+  //                .attr("y2", +127)
+
+  const sectorOverallText = sectorOverall.append("text")
+    .attr("y", -106)
+
+  // 这里其实可以不要tspan， 直接用text就可以了
+  sectorOverallText.append("tspan")
+    .attr("x", 0)
+    .text(d => d3.format(".4s")(d.rate * 100))
+
+  // 12行业的第一个额外增加一个文本描述overall
+  sectorOverallText.filter((d, i) => !i).append("tspan")
+    .attr("x", 0)
+    .attr("dy", "-11")
+    .style("font-size", "8px")
+    .text("OVERALL")
+
+  /** 总体视图的均值线 -------------------------------------- **/
+
+  const overall = svg.append("g")
+    .attr("class", "g-overall g-overall-all")
+    .attr("transform", `translate(${x(overallRate)}, ${y0(nameAll)})`)
+
+  overall.append("line")
+    .attr("y1", -120)
+    .attr("y2", +200)
+
+  const overallText = overall.append("text")
+    .attr("y", -136)
+    .style("font-weight", "bold")
+
+  overallText.append("tspan")
+    .attr("x", 0)
+    .style("font-size", "13px")
+    .text(overallRate * 100)
+
+  overallText.append("tspan")
+    .attr("x", 0)
+    .attr("dy", "-14")
+    .style("font-size", "8px")
+    .text("OVERALL")
+
+  /** -------------------------------------- **/
+
+  let currentView = "overall"
+
+  // 三个按钮绑定方法，用于两种视图切换
+  d3.selectAll(".g-content button[data-view]")
+    .datum(function(d) { return this.getAttribute("data-view") })
+    .on("click", transitionView)
+
+  // 监听输入
+  const searchInput = d3.select(".g-search input")
+    .on("keyup", keyuped)
+
+  // 输入清理
+  const searchClear = d3.select(".g-search .g-search-clear")
+    .on("click", function() {
+      searchInput.property("value", "").node().blur();
+      search();
+    })
+
+  var tip = d3.select(".g-tip");
+
+  var tipMetric = tip.selectAll(".g-tip-metric")
+    .datum(function() { return this.getAttribute("data-name"); });
+
+
+  d3.requote = function(s) {
+    var d3_requote_re = /[\\\^\$\*\+\?\|\[\]\(\)\.\{\}]/g;
+    return s.replace(d3_requote_re, "\\$&");
+  }
+
+  // 这个功能牛逼了, 对行业描述中用b强调的公司，鼠标mouseover的时候对应显示tooltip
+  // 这里通过datum方法重新指定新的数据集，用于传递到下面的mouseoverAnnotation方法中，第一次见这种用法
+  // 去掉原来的正则实现，没必要
+  d3.selectAll(".g-annotations b,.g-sector-notes b")
+    .datum(function() {
+//      return new RegExp("\\b" + d3.requote(this.textContent), "i");
+      return this.textContent
+    })
+    .on("mouseover", mouseoverAnnotation)
+    .on("mouseout", mouseout)
+
+
+
+  /**
+   * 描述文字中的b标签强调的公司鼠标经过显示tooltip
+   *
+       这里matches.datum()用于获取选中的数据，这里很有意思
+       datum的作用有获取和设置数据，而data也能获取和设置数据
+       所以这里可以通过datum获取选中的数据集合, 这个datum方法解释中有一句话：
+       如果未指定值，则返回选择中第一个（非null）元素的bound数据。仅当您知道选择包含一个元素时，这通常很有用
+       这里就是这个用法
+       matches.data() => 获取所有符合的节点数据数组
+       matches.datum() => 获取第一个元素
+   */
+  function mouseoverAnnotation(re) {
+    // re是搜索关键词，选中所有符合的圆设置为active状态
+     const matches = svg.selectAll('.g-sector circle')
+      .filter((d,i) => d.name && d.name.includes(re))
+      .classed('g-active', true)
+
+    // 如果只有单条数据则需要额外显示tooltip
+    if (matches.data().length === 1) {
+      mouseover(matches.datum())
+    } else {
+      tip.style('display', 'none')
+    }
+  }
+
+  // 键盘输入事件
+  function keyuped() {
+    // 27是ESC键, 此处的this是指input，所以this.blur是input的失焦事件
+    if (d3.event.keyCode === 27) {
+      this.value = ""
+      this.blur()
+    }
+    search(this.value.trim())
+  }
+
+  // 匹配元素, 然后添加 .g-match的class
+  // 如果只有一个匹配元素，则展示tooltip
+  function search(value) {
+    if (value) {
+      //这里的逻辑是添加g-searching状态，此状态下的所有没有g.match的circle的透明度为0.2, 然后再给匹配到的circle添加g-match状态
+      svg.classed("g-searching", true)
+
+      // 注意这里大小写不敏感，会有问题
+       svg.selectAll('.g-sector circle')
+        .classed('g-match', (d,i) => d.name && d.name.toLowerCase().includes(value.toLowerCase()))
+
+      // 改写之后可能引入了一个新问题，比如搜索apple, 原来搜索了一个记录，现在搜出两条记录，有一条是单词中刚好包含apple，这个待定
+      const matches = d3.selectAll(".g-match");
+
+      if (matches.data().length === 1) mouseover(matches.datum());
+      else mouseout()
+
+      searchClear.style("display", null)
+    } else {
+      mouseout();
+      svg.classed("g-searching", false)
+      sectorCompany.classed("g-match", false)
+      searchClear.style("display", "none")
+    }
+  }
+
+  // 这里void的作用立即执行后面的方法后统一返回undefined
+  function transitionView(view) {
+    if (currentView === view) view = view === "overall" ? "sector" : "overall";
+    d3.selectAll(".g-buttons button[data-view]").classed("g-active", function(v) { return v === view; })
+    switch (currentView = view) {
+      case "overall": return void transitionOverall();
+      case "sector": return void transitionSector();
+    }
+  }
+
+  // 视图切换成总视图
+  function transitionOverall() {
+
+    const transition = d3.transition()
+      .duration(750)
+
+    transition.select("svg")
+      .delay(720)
+      .attr("height", 490 + margin.top + margin.bottom)
+      .on('end', function(){
+
+      })
+//      .each("end", function() {
+//        // end事件是动画结束的时候
+//      })
+
+    // 总视图下显示五段说明文字
+    // 这里不知道为什么要用each，通过方法的形式，下面我直接通过style就可以设置display方式啊，奇怪
+    transition.select(".g-annotations-overall")
+    //.each("start", function() { this.style.display = "block"; })
+      .style("display", "block")
+      .style("opacity", 1)
+
+    // 将分视图时的各行业描述文字隐藏
+    // 这里的问题和上面一样，为啥要用each
+    transition.select(".g-sector-notes")
+      .style("opacity", 0)
+      .style("display", 'none')
+    //.each("end", function() { this.style.display = "none"; });
+
+    // 隐藏12个行业的x轴
+    transition.selectAll(".g-y-axis-sector")
+      .style("stroke-opacity", 0)
+      .style("fill-opacity", 0)
+
+    // 显示总视图的x轴
+    transition.selectAll(".g-y-axis-overall")
+      .style("stroke-opacity", 1)
+      .style("fill-opacity", 1)
+
+    // 显示调整总视图的均值线和文字
+    const transitionOverall = transition.select(".g-overall-all").style("stroke-opacity", 1).style("fill-opacity", 1)
+    transitionOverall.select("line").attr("y2", +120)
+    transitionOverall.select("text").attr("y", -136)
+
+
+    const transitionSectorOverall = transition.selectAll(".g-sector .g-overall")
+      .attr("transform", d => `translate(${x(d.rate)}, ${(y0(nameAll) - y(d.key))})`)
+      .style("stroke-opacity", 0)
+      .style("fill-opacity", 0)
+
+    // 12个分视图的均值线的过渡动画(控制线的长度和位置的过渡)
+    transitionSectorOverall.select("line").attr("y1", -100).attr("y2", +127)
+    transitionSectorOverall.select("text").attr("y", -106)
+
+    // 调整12个分视图中circle的位置
+    transition.selectAll(".g-sector-company circle")
+      .delay(d => d.cx)
+      .attr("cx", d => d.cx)
+      .attr("cy", d =>  d.cy - y(d.sector) + y0(nameAll))
+  }
+
+  // 视图切换成12个分视图
+  function transitionSector() {
+
+    const transition = d3.transition()
+      .duration(750)
+
+    transition.select("svg")
+      .attr("height", height + margin.top + margin.bottom) // 这里的高度是12个分时图的高度
+      .on('end', function() {
+
+      })
+//      .each("end", function() {
+//        // end事件是动画结束的时候
+//      })
+
+    // 明白了为什么要在each里设置，如果直接style设置display，是立马生效的，用了end之后就可以在动画走完之后再设置隐藏，看起来有一个过渡效果
+    // 隐藏总视图下的五段描述文字
+    transition.select(".g-annotations-overall")
+      .style("opacity", 0)
+//      .each("end", function() { this.style.display = "none"})
+      .on("end", function() { this.style.display = "none"})
+
+    // 如果设置了delay就不需要用each配合end了，因为这两种方式的目的都是有设置一定的时间间隔来过渡
+    // 显示12个分视图的行业描述
+    transition.select(".g-sector-notes")
+      .delay(250)
+      .style("display", 'block')
+      .style("opacity", 1)
+
+    // 显示12个分视图的x轴
+    transition.selectAll(".g-y-axis-sector")
+      .delay(250)
+      .style("stroke-opacity", 1)
+      .style("fill-opacity", 1)
+
+    // 隐藏总视图的x轴
+    transition.selectAll(".g-y-axis-overall")
+      .style("stroke-opacity", 0)
+      .style("fill-opacity", 0)
+
+    // 隐藏总视图的均值线
+    const transitionOverall = transition.select(".g-overall-all")
+      .delay(x(overallRate))
+      .style("stroke-opacity", 0)
+      .style("fill-opacity", 0)
+
+    // 这里改变长度是为了切换成总视图的时候均值线的高度过渡，可有可无吧，视图效果可能会好看点
+    transitionOverall.select("line")
+      .attr("y2", height - y0(nameAll))
+
+    const transitionSectorOverall = transition.selectAll(".g-sector .g-overall")
+      .delay(function(d) { return x(d.rate); })
+      .attr("transform", d => `translate(${x(d.rate)}, 0)`)
+      .style("stroke-opacity", 1)
+      .style("fill-opacity", 1)
+
+    transitionSectorOverall.select("line").attr("y1", -25).attr("y2", +25)
+    transitionSectorOverall.select("text").attr("y", -31)
+
+    transition.selectAll(".g-sector-company circle")
+      .delay(d => d.x)
+      .attr("cx", d => d.x)
+      .attr("cy", d => d.y)
+  }
+
+
+  // 鼠标经过circle时显示tooltip
+  function mouseover(d) {
+    sectorCompany.filter(function(c) { return c === d; }).classed("g-active", true);
+
+    var dx, dy;
+    if (currentView === "overall") dx = d.cx, dy = d.cy + y0(nameAll);
+    else dx = d.x, dy = d.y + y(d.sector);
+    dy -= 19, dx += 50; // margin fudge factors
+
+    tip.style("display", null)
+      .style("top", (dy - r(d.capitalization)) + "px")
+      .style("left", dx + "px");
+
+    tip.select(".g-tip-title")
+      .text(d.name);
+
+    tipMetric.select(".g-tip-metric-value").text(function(name) {
+      switch (name) {
+        case "rate": return isNaN(d.x) ? "N.A." : formatPercent(d.rate);
+        case "taxes": return formatDollars(d.taxes);
+        case "earnings": return formatDollars(d.earnings);
+        case "genderhex": return d.genderhex;
+        case "age": return d.age;
+        case "hometown": return d.hometown;
+      }
+    });
+  }
+
+  // 鼠标离开circle时
+  function mouseout() {
+    tip.style("display", "none");
+    sectorCompany.filter(".g-active").classed("g-active", false);
+  }
+  //  });
+
+  // 绘制底部图说明文字和图例等
+  function renderChartKey(g) {
+    const formatPercent = d3.format('.0%'),
+      formatNumber = d3.format('.0f')
+
+    // A position encoding for the key only.
+    const x = d3.scaleLinear()
+      .domain([0, 1])
+      .range([0, 240])
+
+    const xAxis = d3.axisBottom()
+      .scale(x)
+      .tickSize(13)
+      .tickValues(z.domain())
+      .tickFormat(d => d === 1 ? formatPercent(d) : formatNumber(100 * d))
+
+    g.append('text')
+      .attr('x', -55)
+      .style('text-anchor', 'end')
+      .style('font', 'bold 10px Alegreya, sans-serif')
+      .text('CHART KEY')
+
+    const gColor = g.append('g')
+      .attr('class', 'g-key-color')
+      .attr('transform', 'translate(110,-8)')
+
+    gColor.selectAll('rect')
+      .data(z.range().map(function(d, i) {
+        return {
+          x0: i ? x(z.domain()[i - 1]) : x.range()[0],
+          x1: i < 4 ? x(z.domain()[i]) : x.range()[1],
+          z: d
+        }
+      }))
+      .enter().append('rect')
+      .attr('height', 8)
+      .attr('x', d => d.x0)
+      .attr('width', d => d.x1 - d.x0)
+      .style('fill', d => d.z)
+
+    const gColorX = g.append('g')
+      .attr('class', 'g-key-color')
+      .attr('transform', 'translate(350,-8)')
+
+    gColorX.selectAll('rect')
+      .data(zx.range().map(function(d, i) {
+        return {
+          x0: i ? x(zx.domain()[i - 1]) : x.range()[0],
+          x1: i < 4 ? x(zx.domain()[i]) : x.range()[1],
+          zx: d
+        }
+      }))
+      .enter().append('rect')
+      .attr('height', 8)
+      .attr('x', d => d.x0)
+      .attr('width', d => d.x1 - d.x0)
+      .style('fill', d => d.zx)
+
+    // gColor.call(xAxis)
+
+    const gColorText = g.append('text')
+      .attr('x', 200-110)
+      .style('text-anchor', 'end')
+
+    const gColorTextX = g.append('text')
+      .attr('x', 400-70)
+      .style('text-anchor', 'end')
+
+    gColorText.append('tspan')
+      .style('fill', '#777')
+      .text('Female ')
+
+    gColorText.append('tspan')
+      .style('font-weight', 'bold')
+      .text('contestants');
+
+    gColorTextX.append('tspan')
+      .style('fill', '#777')
+      .text('Male ')
+
+    gColorTextX.append('tspan')
+      .style('font-weight', 'bold')
+      .text('contestants');
+
+    const gSize = g.append('g')
+      .attr('class', 'g-key-size')
+      .attr('transform', 'translate(580,-7)');
+
+    const gSizeInstance = gSize.selectAll('g')
+      .data([1e9, 2e10, 4e10, 8e10])
+      .enter().append('g')
+      .attr('class', 'g-sector')
+
+    gSizeInstance.append('circle')
+      .attr('r', r)
+
+    gSizeInstance.append('text')
+      .attr('x', d => r(d) + 4)
+      .attr('dy', '.35em')
+      .text(d => '> ' + Math.round(d / 1e10) + ' wks')
+
+    let gSizeX = 0
+
+    gSizeInstance.attr('transform', function() {
+      var t = 'translate(' + gSizeX + ',3)';
+      gSizeX += this.getBBox().width + 15;
+      return t;
+    })
+
+    const gSizeText = g.append('text')
+      .attr('x', 580 - 10)
+      .style('text-anchor', 'end')
+
+    gSizeText.append('tspan')
+      .style('font-weight', 'bold')
+      .text('Length');
+
+    gSizeText.append('tspan')
+      .style('fill', '#777')
+      .text(' in series')
+  }
+
+  // 这个方法的目的是将单词过长的tick文字切分成两个tsapn, 然后换行显示
+  function yAxisWrap(g) {
+    g.selectAll(".tick text")
+      .filter(function(d) {
+        // 判断过长的单词是两个单词组成，判断依据是空格/ getComputedTextLength获取text的宽度
+        return /[ ]/.test(d) && this.getComputedTextLength() > margin.left - tickExtension - 10;
+      })
+      .attr("dy", null)
+      .each(function(d) {
+        d3.select(this).text(null)
+          .selectAll("tspan")
+          .data(d.split(" "))
+          .enter().append("tspan")
+          .attr("x", this.getAttribute("x")) // getAttribute() 方法返回指定属性名的属性值
+          .attr("dy", function(d, i) { return (i * 1.35 - .35) + "em"; })
+          .text(function(d) { return d; });
+      });
+  }
+
+</script>
+</body>
+</html>
