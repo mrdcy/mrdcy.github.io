@@ -27,7 +27,7 @@ const companies = [
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 1",
-    "genderhex": "#a3a3e3",
+    "genderhex": "#76528B",
     "agenorm": 0.3076923076923077
   },
   {
@@ -58,7 +58,7 @@ const companies = [
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 1",
-    "genderhex": "#a3e3a3",
+    "genderhex": "#CBCE91",
     "agenorm": 0.3076923076923077
   },
   {
@@ -81,15 +81,15 @@ const companies = [
     "coverFile": "S1_Hannah_Elizabeth-01.png",
     "file_name": "S1_Hannah_Elizabeth-01.png",
     "n": 0.7769516728624535,
-    "x": 430.7692307692308,
-    "cx": 430.7692307692308,
+    "x": 430.76923076923083,
+    "cx": 430.76923076923083,
     "y": -15,
     "cy": -15,
     "capitalization": 100740800000,
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 1",
-    "genderhex": "#a3a3e3",
+    "genderhex": "#76528B",
     "agenorm": 0.5384615384615384
   },
   {
@@ -112,15 +112,15 @@ const companies = [
     "coverFile": "S1_Jon_Clark-01.png",
     "file_name": "S1_Jon_Clark-01.png",
     "n": 0.5055762081784385,
-    "x": 430.7692307692308,
-    "cx": 430.7692307692308,
+    "x": 430.76923076923083,
+    "cx": 430.76923076923083,
     "y": 15,
     "cy": 162.5,
     "capitalization": 100740800000,
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 1",
-    "genderhex": "#a3e3a3",
+    "genderhex": "#CBCE91",
     "agenorm": 0.5384615384615384
   },
   {
@@ -151,7 +151,7 @@ const companies = [
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 1",
-    "genderhex": "#a3e3a3",
+    "genderhex": "#CBCE91",
     "agenorm": 0.15384615384615385
   },
   {
@@ -182,7 +182,7 @@ const companies = [
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 1",
-    "genderhex": "#a3a3e3",
+    "genderhex": "#76528B",
     "agenorm": 0.6153846153846154
   },
   {
@@ -213,7 +213,7 @@ const companies = [
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 1",
-    "genderhex": "#a3a3e3",
+    "genderhex": "#76528B",
     "agenorm": 0.38461538461538464
   },
   {
@@ -244,7 +244,7 @@ const companies = [
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 1",
-    "genderhex": "#a3e3a3",
+    "genderhex": "#CBCE91",
     "agenorm": 0.15384615384615385
   },
   {
@@ -275,7 +275,7 @@ const companies = [
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 1",
-    "genderhex": "#a3e3a3",
+    "genderhex": "#CBCE91",
     "agenorm": 1
   },
   {
@@ -298,16 +298,16 @@ const companies = [
     "coverFile": "S1_Zoe_Basia_Brown-01.png",
     "file_name": "S1_Zoe_Basia_Brown-01.png",
     "n": 0.9107806691449812,
-    "x": 369.2307692307692,
-    "cx": 369.2307692307692,
+    "x": 369.23076923076917,
+    "cx": 369.23076923076917,
     "y": -25,
     "cy": -15,
     "capitalization": 100740800000,
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 1",
-    "genderhex": "#a3a3e3",
-    "agenorm": 0.46153846153846156
+    "genderhex": "#76528B",
+    "agenorm": 0.4615384615384616
   },
   {
     "name": "Ben Porter",
@@ -329,16 +329,16 @@ const companies = [
     "coverFile": "S1_Ben_Porter-01.png",
     "file_name": "S1_Ben_Porter-01.png",
     "n": 0.8810408921933085,
-    "x": 369.2307692307692,
-    "cx": 369.2307692307692,
+    "x": 369.23076923076917,
+    "cx": 369.23076923076917,
     "y": 10,
     "cy": 55,
     "capitalization": 100740800000,
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 1",
-    "genderhex": "#a3e3a3",
-    "agenorm": 0.46153846153846156
+    "genderhex": "#CBCE91",
+    "agenorm": 0.4615384615384616
   },
   {
     "name": "Poppy Farnan",
@@ -368,7 +368,7 @@ const companies = [
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 1",
-    "genderhex": "#a3a3e3",
+    "genderhex": "#76528B",
     "agenorm": 0.3076923076923077
   },
   {
@@ -399,7 +399,7 @@ const companies = [
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 1",
-    "genderhex": "#a3a3e3",
+    "genderhex": "#76528B",
     "agenorm": 0.38461538461538464
   },
   {
@@ -430,7 +430,7 @@ const companies = [
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 1",
-    "genderhex": "#a3e3a3",
+    "genderhex": "#CBCE91",
     "agenorm": 0.3076923076923077
   },
   {
@@ -461,7 +461,7 @@ const companies = [
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 1",
-    "genderhex": "#a3e3a3",
+    "genderhex": "#CBCE91",
     "agenorm": 0.3076923076923077
   },
   {
@@ -492,7 +492,7 @@ const companies = [
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 1",
-    "genderhex": "#a3a3e3",
+    "genderhex": "#76528B",
     "agenorm": 0.07692307692307693
   },
   {
@@ -515,16 +515,16 @@ const companies = [
     "coverFile": "S1_Daisy_Muller-01.png",
     "file_name": "S1_Daisy_Muller-01.png",
     "n": 0.5613382899628252,
-    "x": 369.2307692307692,
-    "cx": 369.2307692307692,
+    "x": 369.23076923076917,
+    "cx": 369.23076923076917,
     "y": -3.5,
     "cy": 7.5,
     "capitalization": 100740800000,
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 1",
-    "genderhex": "#a3a3e3",
-    "agenorm": 0.46153846153846156
+    "genderhex": "#76528B",
+    "agenorm": 0.4615384615384616
   },
   {
     "name": "Chris Williamson",
@@ -554,7 +554,7 @@ const companies = [
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 1",
-    "genderhex": "#a3e3a3",
+    "genderhex": "#CBCE91",
     "agenorm": 0.6923076923076923
   },
   {
@@ -585,7 +585,7 @@ const companies = [
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 1",
-    "genderhex": "#a3e3a3",
+    "genderhex": "#CBCE91",
     "agenorm": 0.15384615384615385
   },
   {
@@ -616,7 +616,7 @@ const companies = [
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 1",
-    "genderhex": "#a3a3e3",
+    "genderhex": "#76528B",
     "agenorm": 0.38461538461538464
   },
   {
@@ -647,7 +647,7 @@ const companies = [
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 1",
-    "genderhex": "#a3a3e3",
+    "genderhex": "#76528B",
     "agenorm": 0.6153846153846154
   },
   {
@@ -678,7 +678,7 @@ const companies = [
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 1",
-    "genderhex": "#a3e3a3",
+    "genderhex": "#CBCE91",
     "agenorm": 0.8461538461538461
   },
   {
@@ -700,7 +700,7 @@ const companies = [
     "l": 0.8274509803921568,
     "coverFile": "S1_Tony_Alberti-01.png",
     "file_name": "S1_Tony_Alberti-01.png",
-    "n": 0.9405204460966541,
+    "n": 0.940520446096654,
     "x": 676.9230769230769,
     "cx": 676.9230769230769,
     "y": -5,
@@ -709,7 +709,7 @@ const companies = [
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 1",
-    "genderhex": "#a3e3a3",
+    "genderhex": "#CBCE91",
     "agenorm": 0.8461538461538461
   },
   {
@@ -740,7 +740,7 @@ const companies = [
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 2",
-    "genderhex": "#a3a3e3",
+    "genderhex": "#76528B",
     "agenorm": 0.6153846153846154
   },
   {
@@ -763,15 +763,15 @@ const companies = [
     "coverFile": "S2_Nathan_Masey-01.png",
     "file_name": "S2_Nathan_Masey-01.png",
     "n": 0.37918215613382894,
-    "x": 430.7692307692308,
-    "cx": 430.7692307692308,
+    "x": 430.76923076923083,
+    "cx": 430.76923076923083,
     "y": 15,
     "cy": 192.5,
     "capitalization": 100740800000,
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 2",
-    "genderhex": "#a3e3a3",
+    "genderhex": "#CBCE91",
     "agenorm": 0.5384615384615384
   },
   {
@@ -794,16 +794,16 @@ const companies = [
     "coverFile": "S2_Alex_Bowen-01.png",
     "file_name": "S2_Alex_Bowen-01.png",
     "n": 0.4312267657992565,
-    "x": 369.2307692307692,
-    "cx": 369.2307692307692,
+    "x": 369.23076923076917,
+    "cx": 369.23076923076917,
     "y": -25,
     "cy": 100,
     "capitalization": 100740800000,
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 2",
-    "genderhex": "#a3e3a3",
-    "agenorm": 0.46153846153846156
+    "genderhex": "#CBCE91",
+    "agenorm": 0.4615384615384616
   },
   {
     "name": "Olivia Buckland",
@@ -833,7 +833,7 @@ const companies = [
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 2",
-    "genderhex": "#a3a3e3",
+    "genderhex": "#76528B",
     "agenorm": 0.3076923076923077
   },
   {
@@ -864,7 +864,7 @@ const companies = [
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 2",
-    "genderhex": "#a3a3e3",
+    "genderhex": "#76528B",
     "agenorm": 0.15384615384615385
   },
   {
@@ -895,7 +895,7 @@ const companies = [
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 2",
-    "genderhex": "#a3e3a3",
+    "genderhex": "#CBCE91",
     "agenorm": 0.7692307692307693
   },
   {
@@ -918,16 +918,16 @@ const companies = [
     "coverFile": "S2_Alex_Maxted-01.png",
     "file_name": "S2_Alex_Maxted-01.png",
     "n": 0.7434944237918214,
-    "x": 369.2307692307692,
-    "cx": 369.2307692307692,
+    "x": 369.23076923076917,
+    "cx": 369.23076923076917,
     "y": 25,
     "cy": 170,
     "capitalization": 100740800000,
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 2",
-    "genderhex": "#a3e3a3",
-    "agenorm": 0.46153846153846156
+    "genderhex": "#CBCE91",
+    "agenorm": 0.4615384615384616
   },
   {
     "name": "Katie Salmon",
@@ -957,7 +957,7 @@ const companies = [
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 2",
-    "genderhex": "#a3a3e3",
+    "genderhex": "#76528B",
     "agenorm": 0.15384615384615385
   },
   {
@@ -988,7 +988,7 @@ const companies = [
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 2",
-    "genderhex": "#a3a3e3",
+    "genderhex": "#76528B",
     "agenorm": 0.07692307692307693
   },
   {
@@ -1019,7 +1019,7 @@ const companies = [
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 2",
-    "genderhex": "#a3e3a3",
+    "genderhex": "#CBCE91",
     "agenorm": 0.7692307692307693
   },
   {
@@ -1050,7 +1050,7 @@ const companies = [
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 2",
-    "genderhex": "#a3e3a3",
+    "genderhex": "#CBCE91",
     "agenorm": 0.38461538461538464
   },
   {
@@ -1073,15 +1073,15 @@ const companies = [
     "coverFile": "S2_Lauren_Whiteside-01.png",
     "file_name": "S2_Lauren_Whiteside-01.png",
     "n": 0.8959107806691446,
-    "x": 430.7692307692308,
-    "cx": 430.7692307692308,
+    "x": 430.76923076923083,
+    "cx": 430.76923076923083,
     "y": -30,
     "cy": 45,
     "capitalization": 100740800000,
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 2",
-    "genderhex": "#a3a3e3",
+    "genderhex": "#76528B",
     "agenorm": 0.5384615384615384
   },
   {
@@ -1104,16 +1104,16 @@ const companies = [
     "coverFile": "S2_Tina_Stinnes-01.png",
     "file_name": "S2_Tina_Stinnes-01.png",
     "n": 0.6431226765799256,
-    "x": 184.6153846153846,
-    "cx": 184.6153846153846,
+    "x": 184.61538461538458,
+    "cx": 184.61538461538458,
     "y": 0,
     "cy": 10,
     "capitalization": 100740800000,
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 2",
-    "genderhex": "#a3a3e3",
-    "agenorm": 0.23076923076923078
+    "genderhex": "#76528B",
+    "agenorm": 0.2307692307692308
   },
   {
     "name": "Sophie Gradon",
@@ -1135,16 +1135,16 @@ const companies = [
     "coverFile": "S2_Sophie_Gradon-01.png",
     "file_name": "S2_Sophie_Gradon-01.png",
     "n": 0.5910780669144982,
-    "x": 738.4615384615385,
-    "cx": 738.4615384615385,
+    "x": 738.4615384615386,
+    "cx": 738.4615384615386,
     "y": 0,
     "cy": 35,
     "capitalization": 100740800000,
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 2",
-    "genderhex": "#a3a3e3",
-    "agenorm": 0.9230769230769231
+    "genderhex": "#76528B",
+    "agenorm": 0.9230769230769232
   },
   {
     "name": "Troy Frith",
@@ -1174,7 +1174,7 @@ const companies = [
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 2",
-    "genderhex": "#a3e3a3",
+    "genderhex": "#CBCE91",
     "agenorm": 0.38461538461538464
   },
   {
@@ -1197,16 +1197,16 @@ const companies = [
     "coverFile": "S2_Tom_Powell-01.png",
     "file_name": "S2_Tom_Powell-01.png",
     "n": 0.7472118959107805,
-    "x": 369.2307692307692,
-    "cx": 369.2307692307692,
+    "x": 369.23076923076917,
+    "cx": 369.23076923076917,
     "y": 0,
     "cy": 145,
     "capitalization": 100740800000,
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 2",
-    "genderhex": "#a3e3a3",
-    "agenorm": 0.46153846153846156
+    "genderhex": "#CBCE91",
+    "agenorm": 0.4615384615384616
   },
   {
     "name": "Liana Isadora Van Riel",
@@ -1227,7 +1227,7 @@ const companies = [
     "l": 0.5705882352941176,
     "coverFile": "S2_Liana_Isadora_Van-01.png",
     "file_name": "S2_Liana_Isadora_Van-01.png",
-    "n": 0.45353159851301095,
+    "n": 0.453531598513011,
     "x": 123.07692307692308,
     "cx": 123.07692307692308,
     "y": 12.5,
@@ -1236,7 +1236,7 @@ const companies = [
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 2",
-    "genderhex": "#a3a3e3",
+    "genderhex": "#76528B",
     "agenorm": 0.15384615384615385
   },
   {
@@ -1259,15 +1259,15 @@ const companies = [
     "coverFile": "S2_Oliver_Maxewell_Fernandez-01.png",
     "file_name": "S2_Oliver_Maxewell_Fernandez-01.png",
     "n": 0.7583643122676578,
-    "x": 430.7692307692308,
-    "cx": 430.7692307692308,
+    "x": 430.76923076923083,
+    "cx": 430.76923076923083,
     "y": -20,
     "cy": 55,
     "capitalization": 100740800000,
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 2",
-    "genderhex": "#a3e3a3",
+    "genderhex": "#CBCE91",
     "agenorm": 0.5384615384615384
   },
   {
@@ -1298,7 +1298,7 @@ const companies = [
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 2",
-    "genderhex": "#a3a3e3",
+    "genderhex": "#76528B",
     "agenorm": 0.38461538461538464
   },
   {
@@ -1329,7 +1329,7 @@ const companies = [
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 2",
-    "genderhex": "#a3a3e3",
+    "genderhex": "#76528B",
     "agenorm": 0.15384615384615385
   },
   {
@@ -1360,7 +1360,7 @@ const companies = [
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 2",
-    "genderhex": "#a3e3a3",
+    "genderhex": "#CBCE91",
     "agenorm": 0.15384615384615385
   },
   {
@@ -1383,15 +1383,15 @@ const companies = [
     "coverFile": "S2_Rykard_Jenkins-01.png",
     "file_name": "S2_Rykard_Jenkins-01.png",
     "n": 0.2676579925650557,
-    "x": 430.7692307692308,
-    "cx": 430.7692307692308,
+    "x": 430.76923076923083,
+    "cx": 430.76923076923083,
     "y": -7.5,
     "cy": 120,
     "capitalization": 100740800000,
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 2",
-    "genderhex": "#a3e3a3",
+    "genderhex": "#CBCE91",
     "agenorm": 0.5384615384615384
   },
   {
@@ -1422,7 +1422,7 @@ const companies = [
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 2",
-    "genderhex": "#a3e3a3",
+    "genderhex": "#CBCE91",
     "agenorm": 0.38461538461538464
   },
   {
@@ -1453,7 +1453,7 @@ const companies = [
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 2",
-    "genderhex": "#a3a3e3",
+    "genderhex": "#76528B",
     "agenorm": 0.38461538461538464
   },
   {
@@ -1484,7 +1484,7 @@ const companies = [
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 2",
-    "genderhex": "#a3a3e3",
+    "genderhex": "#76528B",
     "agenorm": 0.6153846153846154
   },
   {
@@ -1515,7 +1515,7 @@ const companies = [
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 2",
-    "genderhex": "#a3e3a3",
+    "genderhex": "#CBCE91",
     "agenorm": 0.6923076923076923
   },
   {
@@ -1546,7 +1546,7 @@ const companies = [
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 3",
-    "genderhex": "#a3a3e3",
+    "genderhex": "#76528B",
     "agenorm": 0.15384615384615385
   },
   {
@@ -1569,16 +1569,16 @@ const companies = [
     "coverFile": "S3_Kem_Cetinay-01.png",
     "file_name": "S3_Kem_Cetinay-01.png",
     "n": 0.6728624535315983,
-    "x": 184.6153846153846,
-    "cx": 184.6153846153846,
+    "x": 184.61538461538458,
+    "cx": 184.61538461538458,
     "y": 0,
     "cy": 142.5,
     "capitalization": 100740800000,
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 3",
-    "genderhex": "#a3e3a3",
-    "agenorm": 0.23076923076923078
+    "genderhex": "#CBCE91",
+    "agenorm": 0.2307692307692308
   },
   {
     "name": "Camilla Thurlow",
@@ -1608,7 +1608,7 @@ const companies = [
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 3",
-    "genderhex": "#a3a3e3",
+    "genderhex": "#76528B",
     "agenorm": 0.6923076923076923
   },
   {
@@ -1639,7 +1639,7 @@ const companies = [
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 3",
-    "genderhex": "#a3e3a3",
+    "genderhex": "#CBCE91",
     "agenorm": 0.6923076923076923
   },
   {
@@ -1662,16 +1662,16 @@ const companies = [
     "coverFile": "S3_Chris_Hughes-01.png",
     "file_name": "S3_Chris_Hughes-01.png",
     "n": 0.7286245353159849,
-    "x": 369.2307692307692,
-    "cx": 369.2307692307692,
+    "x": 369.23076923076917,
+    "cx": 369.23076923076917,
     "y": -10,
     "cy": 197.5,
     "capitalization": 100740800000,
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 3",
-    "genderhex": "#a3e3a3",
-    "agenorm": 0.46153846153846156
+    "genderhex": "#CBCE91",
+    "agenorm": 0.4615384615384616
   },
   {
     "name": "Olivia Attwood",
@@ -1701,7 +1701,7 @@ const companies = [
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 3",
-    "genderhex": "#a3a3e3",
+    "genderhex": "#76528B",
     "agenorm": 0.6153846153846154
   },
   {
@@ -1724,15 +1724,15 @@ const companies = [
     "coverFile": "S3_Gabby_Allen-01.png",
     "file_name": "S3_Gabby_Allen-01.png",
     "n": 0.8847583643122676,
-    "x": 430.7692307692308,
-    "cx": 430.7692307692308,
+    "x": 430.76923076923083,
+    "cx": 430.76923076923083,
     "y": -15,
     "cy": 12.5,
     "capitalization": 100740800000,
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 3",
-    "genderhex": "#a3a3e3",
+    "genderhex": "#76528B",
     "agenorm": 0.5384615384615384
   },
   {
@@ -1763,7 +1763,7 @@ const companies = [
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 3",
-    "genderhex": "#a3e3a3",
+    "genderhex": "#CBCE91",
     "agenorm": 1
   },
   {
@@ -1794,7 +1794,7 @@ const companies = [
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 3",
-    "genderhex": "#a3e3a3",
+    "genderhex": "#CBCE91",
     "agenorm": 0.3076923076923077
   },
   {
@@ -1817,16 +1817,16 @@ const companies = [
     "coverFile": "S3_Montana_Brown-01.png",
     "file_name": "S3_Montana_Brown-01.png",
     "n": 0.4981412639405203,
-    "x": 184.6153846153846,
-    "cx": 184.6153846153846,
+    "x": 184.61538461538458,
+    "cx": 184.61538461538458,
     "y": -28,
     "cy": -60,
     "capitalization": 100740800000,
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 3",
-    "genderhex": "#a3a3e3",
-    "agenorm": 0.23076923076923078
+    "genderhex": "#76528B",
+    "agenorm": 0.2307692307692308
   },
   {
     "name": "Georgia Harrison",
@@ -1856,7 +1856,7 @@ const companies = [
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 3",
-    "genderhex": "#a3a3e3",
+    "genderhex": "#76528B",
     "agenorm": 0.3076923076923077
   },
   {
@@ -1879,16 +1879,16 @@ const companies = [
     "coverFile": "S3_Sam_Gowland-01.png",
     "file_name": "S3_Sam_Gowland-01.png",
     "n": 0.7509293680297395,
-    "x": 184.6153846153846,
-    "cx": 184.6153846153846,
+    "x": 184.61538461538458,
+    "cx": 184.61538461538458,
     "y": 25.5,
     "cy": 115,
     "capitalization": 100740800000,
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 3",
-    "genderhex": "#a3e3a3",
-    "agenorm": 0.23076923076923078
+    "genderhex": "#CBCE91",
+    "agenorm": 0.2307692307692308
   },
   {
     "name": "Mike Thalassitis",
@@ -1910,16 +1910,16 @@ const companies = [
     "coverFile": "S3_Mike_Thalassatis-01.png",
     "file_name": "S3_Mike_Thalassatis-01.png",
     "n": 0.34944237918215604,
-    "x": 369.2307692307692,
-    "cx": 369.2307692307692,
+    "x": 369.23076923076917,
+    "cx": 369.23076923076917,
     "y": 12.5,
     "cy": 80,
     "capitalization": 100740800000,
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 3",
-    "genderhex": "#a3e3a3",
-    "agenorm": 0.46153846153846156
+    "genderhex": "#CBCE91",
+    "agenorm": 0.4615384615384616
   },
   {
     "name": "Tyla Carr",
@@ -1949,7 +1949,7 @@ const companies = [
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 3",
-    "genderhex": "#a3a3e3",
+    "genderhex": "#76528B",
     "agenorm": 0.38461538461538464
   },
   {
@@ -1972,15 +1972,15 @@ const companies = [
     "coverFile": "S3_Theo_Campbell-01.png",
     "file_name": "S3_Theo_Campbell-01.png",
     "n": 0.07806691449814139,
-    "x": 430.7692307692308,
-    "cx": 430.7692307692308,
+    "x": 430.76923076923083,
+    "cx": 430.76923076923083,
     "y": 30,
     "cy": 105,
     "capitalization": 100740800000,
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 3",
-    "genderhex": "#a3e3a3",
+    "genderhex": "#CBCE91",
     "agenorm": 0.5384615384615384
   },
   {
@@ -2011,7 +2011,7 @@ const companies = [
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 3",
-    "genderhex": "#a3e3a3",
+    "genderhex": "#CBCE91",
     "agenorm": 0.6153846153846154
   },
   {
@@ -2042,7 +2042,7 @@ const companies = [
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 3",
-    "genderhex": "#a3e3a3",
+    "genderhex": "#CBCE91",
     "agenorm": 0.6923076923076923
   },
   {
@@ -2065,15 +2065,15 @@ const companies = [
     "coverFile": "S3_Nathan_Joseph-01.png",
     "file_name": "S3_Nathan_Joseph-01.png",
     "n": 0.2527881040892193,
-    "x": 430.7692307692308,
-    "cx": 430.7692307692308,
+    "x": 430.76923076923083,
+    "cx": 430.76923076923083,
     "y": 18.5,
     "cy": 93.5,
     "capitalization": 100740800000,
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 3",
-    "genderhex": "#a3e3a3",
+    "genderhex": "#CBCE91",
     "agenorm": 0.5384615384615384
   },
   {
@@ -2104,7 +2104,7 @@ const companies = [
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 3",
-    "genderhex": "#a3a3e3",
+    "genderhex": "#76528B",
     "agenorm": 0.3076923076923077
   },
   {
@@ -2135,7 +2135,7 @@ const companies = [
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 3",
-    "genderhex": "#a3a3e3",
+    "genderhex": "#76528B",
     "agenorm": 0.3076923076923077
   },
   {
@@ -2166,7 +2166,7 @@ const companies = [
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 3",
-    "genderhex": "#a3a3e3",
+    "genderhex": "#76528B",
     "agenorm": 0
   },
   {
@@ -2197,7 +2197,7 @@ const companies = [
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 3",
-    "genderhex": "#a3e3a3",
+    "genderhex": "#CBCE91",
     "agenorm": 0.6153846153846154
   },
   {
@@ -2228,7 +2228,7 @@ const companies = [
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 3",
-    "genderhex": "#a3a3e3",
+    "genderhex": "#76528B",
     "agenorm": 0.3076923076923077
   },
   {
@@ -2259,7 +2259,7 @@ const companies = [
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 3",
-    "genderhex": "#a3e3a3",
+    "genderhex": "#CBCE91",
     "agenorm": 0.3076923076923077
   },
   {
@@ -2282,15 +2282,15 @@ const companies = [
     "coverFile": "S3_Rob_Lipsett-01.png",
     "file_name": "S3_Rob_Lipsett-01.png",
     "n": 0.5910780669144979,
-    "x": 430.7692307692308,
-    "cx": 430.7692307692308,
+    "x": 430.76923076923083,
+    "cx": 430.76923076923083,
     "y": 2.5,
     "cy": 62.5,
     "capitalization": 100740800000,
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 3",
-    "genderhex": "#a3e3a3",
+    "genderhex": "#CBCE91",
     "agenorm": 0.5384615384615384
   },
   {
@@ -2321,7 +2321,7 @@ const companies = [
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 3",
-    "genderhex": "#a3a3e3",
+    "genderhex": "#76528B",
     "agenorm": 0.38461538461538464
   },
   {
@@ -2344,15 +2344,15 @@ const companies = [
     "coverFile": "S3_Steve_Ball-01.png",
     "file_name": "S3_Steve_Ball-01.png",
     "n": 0.7583643122676578,
-    "x": 430.7692307692308,
-    "cx": 430.7692307692308,
+    "x": 430.76923076923083,
+    "cx": 430.76923076923083,
     "y": 10,
     "cy": 70,
     "capitalization": 100740800000,
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 3",
-    "genderhex": "#a3e3a3",
+    "genderhex": "#CBCE91",
     "agenorm": 0.5384615384615384
   },
   {
@@ -2383,7 +2383,7 @@ const companies = [
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 3",
-    "genderhex": "#a3e3a3",
+    "genderhex": "#CBCE91",
     "agenorm": 0.7692307692307693
   },
   {
@@ -2414,7 +2414,7 @@ const companies = [
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 3",
-    "genderhex": "#a3a3e3",
+    "genderhex": "#76528B",
     "agenorm": 0.3076923076923077
   },
   {
@@ -2445,7 +2445,7 @@ const companies = [
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 3",
-    "genderhex": "#a3a3e3",
+    "genderhex": "#76528B",
     "agenorm": 0.38461538461538464
   },
   {
@@ -2476,7 +2476,7 @@ const companies = [
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 3",
-    "genderhex": "#a3a3e3",
+    "genderhex": "#76528B",
     "agenorm": 0.15384615384615385
   },
   {
@@ -2507,7 +2507,7 @@ const companies = [
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 3",
-    "genderhex": "#a3e3a3",
+    "genderhex": "#CBCE91",
     "agenorm": 0.3076923076923077
   },
   {
@@ -2530,16 +2530,16 @@ const companies = [
     "coverFile": "S4_Dani_Dyer-01.png",
     "file_name": "S4_Dani_Dyer-01.png",
     "n": 0.7955390334572489,
-    "x": 184.6153846153846,
-    "cx": 184.6153846153846,
+    "x": 184.61538461538458,
+    "cx": 184.61538461538458,
     "y": -22.5,
     "cy": -120,
     "capitalization": 100740800000,
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 4",
-    "genderhex": "#a3a3e3",
-    "agenorm": 0.23076923076923078
+    "genderhex": "#76528B",
+    "agenorm": 0.2307692307692308
   },
   {
     "name": "Jack Fincham",
@@ -2569,7 +2569,7 @@ const companies = [
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 4",
-    "genderhex": "#a3e3a3",
+    "genderhex": "#CBCE91",
     "agenorm": 0.6153846153846154
   },
   {
@@ -2600,7 +2600,7 @@ const companies = [
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 4",
-    "genderhex": "#a3a3e3",
+    "genderhex": "#76528B",
     "agenorm": 0.8461538461538461
   },
   {
@@ -2631,7 +2631,7 @@ const companies = [
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 4",
-    "genderhex": "#a3e3a3",
+    "genderhex": "#CBCE91",
     "agenorm": 1
   },
   {
@@ -2662,7 +2662,7 @@ const companies = [
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 4",
-    "genderhex": "#a3e3a3",
+    "genderhex": "#CBCE91",
     "agenorm": 0.6153846153846154
   },
   {
@@ -2693,7 +2693,7 @@ const companies = [
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 4",
-    "genderhex": "#a3a3e3",
+    "genderhex": "#76528B",
     "agenorm": 0.38461538461538464
   },
   {
@@ -2716,16 +2716,16 @@ const companies = [
     "coverFile": "S4_Megan_Barton_Hanson-01.png",
     "file_name": "S4_Megan_Barton_Hanson-01.png",
     "n": 0.8401486988847582,
-    "x": 369.2307692307692,
-    "cx": 369.2307692307692,
+    "x": 369.23076923076917,
+    "cx": 369.23076923076917,
     "y": -10,
     "cy": -42.5,
     "capitalization": 100740800000,
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 4",
-    "genderhex": "#a3a3e3",
-    "agenorm": 0.46153846153846156
+    "genderhex": "#76528B",
+    "agenorm": 0.4615384615384616
   },
   {
     "name": "Wes Nelson",
@@ -2746,7 +2746,7 @@ const companies = [
     "l": 0.3666666666666667,
     "coverFile": "S4_Wes_Nelson-01.png",
     "file_name": "S4_Wes_Nelson-01.png",
-    "n": 0.06691449814126402,
+    "n": 0.06691449814126403,
     "x": 123.07692307692308,
     "cx": 123.07692307692308,
     "y": 25,
@@ -2755,7 +2755,7 @@ const companies = [
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 4",
-    "genderhex": "#a3e3a3",
+    "genderhex": "#CBCE91",
     "agenorm": 0.15384615384615385
   },
   {
@@ -2786,7 +2786,7 @@ const companies = [
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 4",
-    "genderhex": "#a3e3a3",
+    "genderhex": "#CBCE91",
     "agenorm": 0.6923076923076923
   },
   {
@@ -2817,7 +2817,7 @@ const companies = [
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 3",
-    "genderhex": "#a3a3e3",
+    "genderhex": "#76528B",
     "agenorm": 0.6923076923076923
   },
   {
@@ -2848,7 +2848,7 @@ const companies = [
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 4",
-    "genderhex": "#a3e3a3",
+    "genderhex": "#CBCE91",
     "agenorm": 0.3076923076923077
   },
   {
@@ -2879,7 +2879,7 @@ const companies = [
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 4",
-    "genderhex": "#a3a3e3",
+    "genderhex": "#76528B",
     "agenorm": 0.38461538461538464
   },
   {
@@ -2902,16 +2902,16 @@ const companies = [
     "coverFile": "S4_Josh_Mair-01.png",
     "file_name": "S4_Josh_Mair-01.png",
     "n": 0.7769516728624535,
-    "x": 184.6153846153846,
-    "cx": 184.6153846153846,
+    "x": 184.61538461538458,
+    "cx": 184.61538461538458,
     "y": 30,
     "cy": 75,
     "capitalization": 100740800000,
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 4",
-    "genderhex": "#a3e3a3",
-    "agenorm": 0.23076923076923078
+    "genderhex": "#CBCE91",
+    "agenorm": 0.2307692307692308
   },
   {
     "name": "Stephanie Lam",
@@ -2941,7 +2941,7 @@ const companies = [
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 4",
-    "genderhex": "#a3a3e3",
+    "genderhex": "#76528B",
     "agenorm": 0.38461538461538464
   },
   {
@@ -2972,7 +2972,7 @@ const companies = [
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 4",
-    "genderhex": "#a3a3e3",
+    "genderhex": "#76528B",
     "agenorm": 0.15384615384615385
   },
   {
@@ -2995,15 +2995,15 @@ const companies = [
     "coverFile": "S4_Sam_Bird-01.png",
     "file_name": "S4_Sam_Bird-01.png",
     "n": 0.8141263940520443,
-    "x": 430.7692307692308,
-    "cx": 430.7692307692308,
+    "x": 430.76923076923083,
+    "cx": 430.76923076923083,
     "y": 17.5,
     "cy": 137.5,
     "capitalization": 100740800000,
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 4",
-    "genderhex": "#a3e3a3",
+    "genderhex": "#CBCE91",
     "agenorm": 0.5384615384615384
   },
   {
@@ -3034,7 +3034,7 @@ const companies = [
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 4",
-    "genderhex": "#a3e3a3",
+    "genderhex": "#CBCE91",
     "agenorm": 0.38461538461538464
   },
   {
@@ -3065,7 +3065,7 @@ const companies = [
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 4",
-    "genderhex": "#a3a3e3",
+    "genderhex": "#76528B",
     "agenorm": 0.15384615384615385
   },
   {
@@ -3088,15 +3088,15 @@ const companies = [
     "coverFile": "S4_Idris_Virgo-01.png",
     "file_name": "S4_Idris_Virgo-01.png",
     "n": 0,
-    "x": 430.7692307692308,
-    "cx": 430.7692307692308,
+    "x": 430.76923076923083,
+    "cx": 430.76923076923083,
     "y": -7.5,
     "cy": 77.5,
     "capitalization": 100740800000,
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 4",
-    "genderhex": "#a3e3a3",
+    "genderhex": "#CBCE91",
     "agenorm": 0.5384615384615384
   },
   {
@@ -3127,7 +3127,7 @@ const companies = [
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 4",
-    "genderhex": "#a3e3a3",
+    "genderhex": "#CBCE91",
     "agenorm": 0.6153846153846154
   },
   {
@@ -3158,7 +3158,7 @@ const companies = [
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 4",
-    "genderhex": "#a3a3e3",
+    "genderhex": "#76528B",
     "agenorm": 0.3076923076923077
   },
   {
@@ -3189,7 +3189,7 @@ const companies = [
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 4",
-    "genderhex": "#a3e3a3",
+    "genderhex": "#CBCE91",
     "agenorm": 0.3076923076923077
   },
   {
@@ -3212,15 +3212,15 @@ const companies = [
     "coverFile": "S4_Grace_Ward-01.png",
     "file_name": "S4_Grace_Ward-01.png",
     "n": 0.6356877323420075,
-    "x": 430.7692307692308,
-    "cx": 430.7692307692308,
+    "x": 430.76923076923083,
+    "cx": 430.76923076923083,
     "y": -20,
     "cy": 32.5,
     "capitalization": 100740800000,
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 4",
-    "genderhex": "#a3a3e3",
+    "genderhex": "#76528B",
     "agenorm": 0.5384615384615384
   },
   {
@@ -3243,16 +3243,16 @@ const companies = [
     "coverFile": "S4_Darylle_Sargeant-01.png",
     "file_name": "S4_Darylle_Sargeant-01.png",
     "n": 0.6171003717472118,
-    "x": 369.2307692307692,
-    "cx": 369.2307692307692,
+    "x": 369.23076923076917,
+    "cx": 369.23076923076917,
     "y": 8.5,
     "cy": 35,
     "capitalization": 100740800000,
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 4",
-    "genderhex": "#a3a3e3",
-    "agenorm": 0.46153846153846156
+    "genderhex": "#76528B",
+    "agenorm": 0.4615384615384616
   },
   {
     "name": "Ellie Jones",
@@ -3282,7 +3282,7 @@ const companies = [
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 4",
-    "genderhex": "#a3a3e3",
+    "genderhex": "#76528B",
     "agenorm": 0.3076923076923077
   },
   {
@@ -3313,7 +3313,7 @@ const companies = [
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 4",
-    "genderhex": "#a3e3a3",
+    "genderhex": "#CBCE91",
     "agenorm": 0.3076923076923077
   },
   {
@@ -3344,7 +3344,7 @@ const companies = [
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 4",
-    "genderhex": "#a3e3a3",
+    "genderhex": "#CBCE91",
     "agenorm": 0.7692307692307693
   },
   {
@@ -3367,16 +3367,16 @@ const companies = [
     "coverFile": "S4_Charlie_Williams-01.png",
     "file_name": "S4_Charlie_Williams-01.png",
     "n": 0.6840148698884757,
-    "x": 369.2307692307692,
-    "cx": 369.2307692307692,
+    "x": 369.23076923076917,
+    "cx": 369.23076923076917,
     "y": 20,
     "cy": 45,
     "capitalization": 100740800000,
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 4",
-    "genderhex": "#a3a3e3",
-    "agenorm": 0.46153846153846156
+    "genderhex": "#76528B",
+    "agenorm": 0.4615384615384616
   },
   {
     "name": "Dean Overson",
@@ -3398,15 +3398,15 @@ const companies = [
     "coverFile": "S4_Dean_Overson-01.png",
     "file_name": "S4_Dean_Overson-01.png",
     "n": 0.8327137546468398,
-    "x": 430.7692307692308,
-    "cx": 430.7692307692308,
+    "x": 430.76923076923083,
+    "cx": 430.76923076923083,
     "y": 2.5,
     "cy": 85,
     "capitalization": 100740800000,
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 4",
-    "genderhex": "#a3e3a3",
+    "genderhex": "#CBCE91",
     "agenorm": 0.5384615384615384
   },
   {
@@ -3437,7 +3437,7 @@ const companies = [
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 4",
-    "genderhex": "#a3e3a3",
+    "genderhex": "#CBCE91",
     "agenorm": 0.38461538461538464
   },
   {
@@ -3468,7 +3468,7 @@ const companies = [
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 4",
-    "genderhex": "#a3a3e3",
+    "genderhex": "#76528B",
     "agenorm": 0.3076923076923077
   },
   {
@@ -3491,16 +3491,16 @@ const companies = [
     "coverFile": "S4_Zara_McDermott-01.png",
     "file_name": "S4_Zara_McDermott-01.png",
     "n": 0.7249070631970257,
-    "x": 184.6153846153846,
-    "cx": 184.6153846153846,
+    "x": 184.61538461538458,
+    "cx": 184.61538461538458,
     "y": 15,
     "cy": 42.5,
     "capitalization": 100740800000,
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 4",
-    "genderhex": "#a3a3e3",
-    "agenorm": 0.23076923076923078
+    "genderhex": "#76528B",
+    "agenorm": 0.2307692307692308
   },
   {
     "name": "Eyal Booker",
@@ -3530,7 +3530,7 @@ const companies = [
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 4",
-    "genderhex": "#a3e3a3",
+    "genderhex": "#CBCE91",
     "agenorm": 0.3076923076923077
   },
   {
@@ -3561,7 +3561,7 @@ const companies = [
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 4",
-    "genderhex": "#a3a3e3",
+    "genderhex": "#76528B",
     "agenorm": 0.6153846153846154
   },
   {
@@ -3592,7 +3592,7 @@ const companies = [
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 4",
-    "genderhex": "#a3e3a3",
+    "genderhex": "#CBCE91",
     "agenorm": 0.38461538461538464
   },
   {
@@ -3615,16 +3615,16 @@ const companies = [
     "coverFile": "S4_Hayley_Hughes-01.png",
     "file_name": "S4_Hayley_Hughes-01.png",
     "n": 0.7249070631970259,
-    "x": 184.6153846153846,
-    "cx": 184.6153846153846,
+    "x": 184.61538461538458,
+    "cx": 184.61538461538458,
     "y": 0,
     "cy": 27.5,
     "capitalization": 100740800000,
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 4",
-    "genderhex": "#a3a3e3",
-    "agenorm": 0.23076923076923078
+    "genderhex": "#76528B",
+    "agenorm": 0.2307692307692308
   },
   {
     "name": "Niall Aslam",
@@ -3654,7 +3654,7 @@ const companies = [
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 4",
-    "genderhex": "#a3e3a3",
+    "genderhex": "#CBCE91",
     "agenorm": 0.38461538461538464
   },
   {
@@ -3685,7 +3685,7 @@ const companies = [
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 4",
-    "genderhex": "#a3a3e3",
+    "genderhex": "#76528B",
     "agenorm": 0.6153846153846154
   },
   {
@@ -3708,16 +3708,16 @@ const companies = [
     "coverFile": "S5_Amber_Gill-01.png",
     "file_name": "S5_Amber_Gill-01.png",
     "n": 0.4237918215613383,
-    "x": 184.6153846153846,
-    "cx": 184.6153846153846,
+    "x": 184.61538461538458,
+    "cx": 184.61538461538458,
     "y": -30,
     "cy": -90,
     "capitalization": 100740800000,
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 5",
-    "genderhex": "#a3a3e3",
-    "agenorm": 0.23076923076923078
+    "genderhex": "#76528B",
+    "agenorm": 0.2307692307692308
   },
   {
     "name": "Greg O'Shea",
@@ -3739,16 +3739,16 @@ const companies = [
     "coverFile": "S5_Greg_O_Shea-01.png",
     "file_name": "S5_Greg_O_Shea-01.png",
     "n": 0.7918215613382898,
-    "x": 369.2307692307692,
-    "cx": 369.2307692307692,
+    "x": 369.23076923076917,
+    "cx": 369.23076923076917,
     "y": -5,
     "cy": 65,
     "capitalization": 100740800000,
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 5",
-    "genderhex": "#a3e3a3",
-    "agenorm": 0.46153846153846156
+    "genderhex": "#CBCE91",
+    "agenorm": 0.4615384615384616
   },
   {
     "name": "Molly-Mae Hague",
@@ -3778,7 +3778,7 @@ const companies = [
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 5",
-    "genderhex": "#a3a3e3",
+    "genderhex": "#76528B",
     "agenorm": 0.15384615384615385
   },
   {
@@ -3809,7 +3809,7 @@ const companies = [
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 5",
-    "genderhex": "#a3e3a3",
+    "genderhex": "#CBCE91",
     "agenorm": 0.15384615384615385
   },
   {
@@ -3840,7 +3840,7 @@ const companies = [
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 5",
-    "genderhex": "#a3a3e3",
+    "genderhex": "#76528B",
     "agenorm": 0.7692307692307693
   },
   {
@@ -3871,7 +3871,7 @@ const companies = [
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 5",
-    "genderhex": "#a3e3a3",
+    "genderhex": "#CBCE91",
     "agenorm": 0.7692307692307693
   },
   {
@@ -3902,7 +3902,7 @@ const companies = [
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 5",
-    "genderhex": "#a3e3a3",
+    "genderhex": "#CBCE91",
     "agenorm": 0.38461538461538464
   },
   {
@@ -3933,7 +3933,7 @@ const companies = [
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 5",
-    "genderhex": "#a3a3e3",
+    "genderhex": "#76528B",
     "agenorm": 0.7692307692307693
   },
   {
@@ -3956,16 +3956,16 @@ const companies = [
     "coverFile": "S5_Anton_Danyluk-01.png",
     "file_name": "S5_Anton_Danyluk-01.png",
     "n": 0.6840148698884757,
-    "x": 369.2307692307692,
-    "cx": 369.2307692307692,
+    "x": 369.23076923076917,
+    "cx": 369.23076923076917,
     "y": 40,
     "cy": 225,
     "capitalization": 100740800000,
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 5",
-    "genderhex": "#a3e3a3",
-    "agenorm": 0.46153846153846156
+    "genderhex": "#CBCE91",
+    "agenorm": 0.4615384615384616
   },
   {
     "name": "Belle Hassan",
@@ -3987,16 +3987,16 @@ const companies = [
     "coverFile": "S5_Belle_Hassan-01.png",
     "file_name": "S5_Belle_Hassan-01.png",
     "n": 0.8141263940520443,
-    "x": 184.6153846153846,
-    "cx": 184.6153846153846,
+    "x": 184.61538461538458,
+    "cx": 184.61538461538458,
     "y": 15,
     "cy": -10,
     "capitalization": 100740800000,
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 5",
-    "genderhex": "#a3a3e3",
-    "agenorm": 0.23076923076923078
+    "genderhex": "#76528B",
+    "agenorm": 0.2307692307692308
   },
   {
     "name": "Anna Vakili",
@@ -4026,7 +4026,7 @@ const companies = [
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 5",
-    "genderhex": "#a3a3e3",
+    "genderhex": "#76528B",
     "agenorm": 0.8461538461538461
   },
   {
@@ -4049,16 +4049,16 @@ const companies = [
     "coverFile": "S5_Jordan_Hames-01.png",
     "file_name": "S5_Jordan_Hames-01.png",
     "n": 0.524163568773234,
-    "x": 369.2307692307692,
-    "cx": 369.2307692307692,
+    "x": 369.23076923076917,
+    "cx": 369.23076923076917,
     "y": 15,
     "cy": 122.5,
     "capitalization": 100740800000,
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 5",
-    "genderhex": "#a3e3a3",
-    "agenorm": 0.46153846153846156
+    "genderhex": "#CBCE91",
+    "agenorm": 0.4615384615384616
   },
   {
     "name": "Chris Taylor",
@@ -4088,7 +4088,7 @@ const companies = [
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 5",
-    "genderhex": "#a3e3a3",
+    "genderhex": "#CBCE91",
     "agenorm": 0.7692307692307693
   },
   {
@@ -4119,7 +4119,7 @@ const companies = [
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 5",
-    "genderhex": "#a3a3e3",
+    "genderhex": "#76528B",
     "agenorm": 0.15384615384615385
   },
   {
@@ -4150,7 +4150,7 @@ const companies = [
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 5",
-    "genderhex": "#a3a3e3",
+    "genderhex": "#76528B",
     "agenorm": 0.38461538461538464
   },
   {
@@ -4181,7 +4181,7 @@ const companies = [
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 5",
-    "genderhex": "#a3e3a3",
+    "genderhex": "#CBCE91",
     "agenorm": 0.6923076923076923
   },
   {
@@ -4203,7 +4203,7 @@ const companies = [
     "l": 0.5333333333333333,
     "coverFile": "S5_Joanna_Chimonides-01.png",
     "file_name": "S5_Joanna_Chimonides-01.png",
-    "n": 0.38289962825278795,
+    "n": 0.382899628252788,
     "x": 246.15384615384616,
     "cx": 246.15384615384616,
     "y": -20,
@@ -4212,7 +4212,7 @@ const companies = [
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 5",
-    "genderhex": "#a3a3e3",
+    "genderhex": "#76528B",
     "agenorm": 0.3076923076923077
   },
   {
@@ -4243,7 +4243,7 @@ const companies = [
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 5",
-    "genderhex": "#a3e3a3",
+    "genderhex": "#CBCE91",
     "agenorm": 0.8461538461538461
   },
   {
@@ -4274,7 +4274,7 @@ const companies = [
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 5",
-    "genderhex": "#a3a3e3",
+    "genderhex": "#76528B",
     "agenorm": 0.6153846153846154
   },
   {
@@ -4305,7 +4305,7 @@ const companies = [
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 5",
-    "genderhex": "#a3e3a3",
+    "genderhex": "#CBCE91",
     "agenorm": 0.3076923076923077
   },
   {
@@ -4328,16 +4328,16 @@ const companies = [
     "coverFile": "S5_Lucie_Donlan-01.png",
     "file_name": "S5_Lucie_Donlan-01.png",
     "n": 0.9256505576208176,
-    "x": 184.6153846153846,
-    "cx": 184.6153846153846,
+    "x": 184.61538461538458,
+    "cx": 184.61538461538458,
     "y": -5,
     "cy": -32.5,
     "capitalization": 100740800000,
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 5",
-    "genderhex": "#a3a3e3",
-    "agenorm": 0.23076923076923078
+    "genderhex": "#76528B",
+    "agenorm": 0.2307692307692308
   },
   {
     "name": "Danny Williams",
@@ -4359,16 +4359,16 @@ const companies = [
     "coverFile": "S5_Danny_Williams-01.png",
     "file_name": "S5_Danny_Williams-01.png",
     "n": 0.28996282527881034,
-    "x": 184.6153846153846,
-    "cx": 184.6153846153846,
+    "x": 184.61538461538458,
+    "cx": 184.61538461538458,
     "y": 55,
     "cy": 92.5,
     "capitalization": 100740800000,
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 5",
-    "genderhex": "#a3e3a3",
-    "agenorm": 0.23076923076923078
+    "genderhex": "#CBCE91",
+    "agenorm": 0.2307692307692308
   },
   {
     "name": "Jourdan Riane",
@@ -4386,20 +4386,20 @@ const companies = [
     "year": 2019,
     "model": "Jourdan Riane",
     "hex": "#995337",
-    "l": 0.40784313725490207,
+    "l": 0.4078431372549021,
     "coverFile": "S5_Jourdan_Rianne-01.png",
     "file_name": "S5_Jourdan_Rianne-01.png",
     "n": 0.14498141263940528,
-    "x": 369.2307692307692,
-    "cx": 369.2307692307692,
+    "x": 369.23076923076917,
+    "cx": 369.23076923076917,
     "y": -20,
     "cy": 22.5,
     "capitalization": 100740800000,
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 5",
-    "genderhex": "#a3a3e3",
-    "agenorm": 0.46153846153846156
+    "genderhex": "#76528B",
+    "agenorm": 0.4615384615384616
   },
   {
     "name": "Dan Rose",
@@ -4421,16 +4421,16 @@ const companies = [
     "coverFile": "S5_Dan_Rose-01.png",
     "file_name": "S5_Dan_Rose-01.png",
     "n": 0.7769516728624535,
-    "x": 184.6153846153846,
-    "cx": 184.6153846153846,
+    "x": 184.61538461538458,
+    "cx": 184.61538461538458,
     "y": 30,
     "cy": 55,
     "capitalization": 100740800000,
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 5",
-    "genderhex": "#a3e3a3",
-    "agenorm": 0.23076923076923078
+    "genderhex": "#CBCE91",
+    "agenorm": 0.2307692307692308
   },
   {
     "name": "Dennon Lewis",
@@ -4451,7 +4451,7 @@ const companies = [
     "l": 0.5705882352941176,
     "coverFile": "S5_Dennon_Lewis-01.png",
     "file_name": "S5_Dennon_Lewis-01.png",
-    "n": 0.45353159851301095,
+    "n": 0.453531598513011,
     "x": 246.15384615384616,
     "cx": 246.15384615384616,
     "y": 5,
@@ -4460,7 +4460,7 @@ const companies = [
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 5",
-    "genderhex": "#a3e3a3",
+    "genderhex": "#CBCE91",
     "agenorm": 0.3076923076923077
   },
   {
@@ -4491,7 +4491,7 @@ const companies = [
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 5",
-    "genderhex": "#a3a3e3",
+    "genderhex": "#76528B",
     "agenorm": 0.38461538461538464
   },
   {
@@ -4522,7 +4522,7 @@ const companies = [
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 5",
-    "genderhex": "#a3a3e3",
+    "genderhex": "#76528B",
     "agenorm": 0.3076923076923077
   },
   {
@@ -4553,7 +4553,7 @@ const companies = [
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 4",
-    "genderhex": "#a3a3e3",
+    "genderhex": "#76528B",
     "agenorm": 0.8461538461538461
   },
   {
@@ -4576,16 +4576,16 @@ const companies = [
     "coverFile": "S5_Stevie_Bradle-01.png",
     "file_name": "S5_Stevie_Bradle-01.png",
     "n": 0.8364312267657992,
-    "x": 184.6153846153846,
-    "cx": 184.6153846153846,
+    "x": 184.61538461538458,
+    "cx": 184.61538461538458,
     "y": 40,
     "cy": 65,
     "capitalization": 100740800000,
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 5",
-    "genderhex": "#a3e3a3",
-    "agenorm": 0.23076923076923078
+    "genderhex": "#CBCE91",
+    "agenorm": 0.2307692307692308
   },
   {
     "name": "Arabella Chi",
@@ -4615,7 +4615,7 @@ const companies = [
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 5",
-    "genderhex": "#a3a3e3",
+    "genderhex": "#76528B",
     "agenorm": 0.7692307692307693
   },
   {
@@ -4646,7 +4646,7 @@ const companies = [
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 5",
-    "genderhex": "#a3e3a3",
+    "genderhex": "#CBCE91",
     "agenorm": 0.8461538461538461
   },
   {
@@ -4677,7 +4677,7 @@ const companies = [
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 5",
-    "genderhex": "#a3a3e3",
+    "genderhex": "#76528B",
     "agenorm": 0.38461538461538464
   },
   {
@@ -4708,7 +4708,7 @@ const companies = [
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 5",
-    "genderhex": "#a3e3a3",
+    "genderhex": "#CBCE91",
     "agenorm": 0.3076923076923077
   },
   {
@@ -4733,13 +4733,13 @@ const companies = [
     "n": 0.3903345724907062,
     "x": 492.3076923076923,
     "cx": 492.3076923076923,
-    "y":  5,
+    "y": 5,
     "cy": 27.5,
     "capitalization": 100740800000,
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 5",
-    "genderhex": "#a3a3e3",
+    "genderhex": "#76528B",
     "agenorm": 0.6153846153846154
   },
   {
@@ -4770,7 +4770,7 @@ const companies = [
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 5",
-    "genderhex": "#a3e3a3",
+    "genderhex": "#CBCE91",
     "agenorm": 0.15384615384615385
   },
   {
@@ -4801,7 +4801,7 @@ const companies = [
     "earnings": 34694000000,
     "taxes": 6317000000,
     "sector": "Season 5",
-    "genderhex": "#a3e3a3",
+    "genderhex": "#CBCE91",
     "agenorm": 0.7692307692307693
   }
 ]
